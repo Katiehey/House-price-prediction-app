@@ -7,8 +7,8 @@ import numpy as np
 import os
 
 # Define the paths where your files are saved within Kaggle
-MODEL_PATH = '/kaggle/working/house_price_prediction_pipeline.joblib'
-FEATURES_PATH = '/kaggle/working/feature_list.json'
+MODEL_PATH = 'house_price_prediction_pipeline.joblib'
+FEATURES_PATH = 'feature_list.json'
 
 # --- Load the Model and Feature List ---
 try:
