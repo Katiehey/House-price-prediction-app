@@ -47,15 +47,15 @@ with col2:
     st.subheader("Categorical Inputs")
     for feature in categorical_features:
         # Define options for dropdowns based on your training data unique values
-        if feature == 'Neighborhood':
+        if feature == 'neighborhood':
             options = ['Blmngtn', 'Blueste', 'BrDale', 'BrkSide', 'ClearCr', 'CollgCr', 'Crawfor', 'Edwards', 'Gilbert', 'IDotRR', 'MeadowV', 'Mitchel', 'NAmes', 'NoRidge', 'NPkVill', 'NridgHt', 'NWames', 'OldTown', 'SWISU', 'Sawyer', 'SawyerW', 'Somerst', 'StoneBr', 'Timber', 'Veenker']
-        elif feature == 'OverallQual' or feature == 'OverallCond':
+        elif feature == 'overallQual' or feature == 'overallCond':
             options = [10,9,8,7,6,5,4,3,2,1]
-        elif feature == 'BsmtExposure':
+        elif feature == 'bsmtexposure':
             options = ['Gd', 'Av', 'Mn', 'No', 'NA']
-        elif feature == 'KitchenQual':
+        elif feature == 'kitchenqual':
             options = ['Ex', 'Gd', 'TA', 'Fa', 'Po']
-        elif feature == 'SaleType':
+        elif feature == 'saletype':
             options = ['WD', 'CWD', 'VWD', 'New', 'COD', 'Con', 'ConLW', 'ConLI', 'ConLD', 'Oth']
         else:
             options = ['N/A'] # Fallback
