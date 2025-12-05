@@ -49,7 +49,7 @@ with col2:
         # Define options for dropdowns based on your training data unique values
         if feature == 'neighborhood':
             options = ['Blmngtn', 'Blueste', 'BrDale', 'BrkSide', 'ClearCr', 'CollgCr', 'Crawfor', 'Edwards', 'Gilbert', 'IDotRR', 'MeadowV', 'Mitchel', 'NAmes', 'NoRidge', 'NPkVill', 'NridgHt', 'NWames', 'OldTown', 'SWISU', 'Sawyer', 'SawyerW', 'Somerst', 'StoneBr', 'Timber', 'Veenker']
-        elif feature == 'overallQual' or feature == 'overallCond':
+        elif feature == 'overallqual' or feature == 'overallcond':
             options = ['10','9','8','7','6','5','4','3','2','1']
         elif feature == 'bsmtexposure':
             options = ['Gd', 'Av', 'Mn', 'No', 'NA']
