@@ -71,20 +71,21 @@ def load_and_clean(path: str) -> pd.DataFrame:
 
     # Drop rows without a target price
     df = df.dropna(subset=[TARGET])
+    
+    # Ensure Target is numeric
+    df[TARGET] = pd.to_numeric(df[TARGET], errors='coerce')
+    df = df.dropna(subset=[TARGET])
     df = df[df[TARGET] > 0]
 
-    # Sanity-check price range: drop extreme outliers (< R50k or > R100m)
-    df = df[(df[TARGET] >= 50_000) & (df[TARGET] <= 100_000_000)]
+    # Sanity-check price range: drop extreme outliers (< R50k or > R30m)
+    # Using R30M matches your rescue script logic
+    df = df[(df[TARGET] >= 50_000) & (df[TARGET] <= 30_000_000)]
 
-    # Impute missing numeric values with sensible defaults
-    df["erf_size_m2"] = df.get("erf_size_m2", pd.Series(dtype=float)).fillna(0)
-    df["garages"] = df.get("garages", pd.Series(dtype=float)).fillna(0)
-    df["parkings"] = df.get("parkings", pd.Series(dtype=float)).fillna(0)
-
-    # Normalise property_type labels
+    # Normalise property_type labels - ADDED .astype(str) HERE
     if "property_type" in df.columns:
         df["property_type"] = (
             df["property_type"]
+            .astype(str)  # Fixes the AttributeError
             .str.strip()
             .str.title()
             .replace({
@@ -97,26 +98,26 @@ def load_and_clean(path: str) -> pd.DataFrame:
                 "Vacant Land": "Vacant Land",
                 "Farm": "Farm",
                 "Commercial": "Commercial",
+                "Nan": "Unknown" # Handle string-converted NaNs
             })
         )
     else:
         df["property_type"] = "Unknown"
 
-    # Fill missing categoricals
-    for col in ["province", "suburb", "property_type"]:
+    # Fill missing categoricals - ADDED .astype(str) HERE
+    for col in ["province", "suburb"]:
         if col in df.columns:
-            df[col] = df[col].fillna("Unknown").str.strip()
+            df[col] = df[col].astype(str).fillna("Unknown").str.strip()
         else:
             df[col] = "Unknown"
 
-    # Ensure all numerical features exist
+    # Ensure all numerical features exist and are numeric
     for col in NUMERICAL_FEATURES:
         if col not in df.columns:
             df[col] = 0.0
         df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
 
     print(f"Clean rows: {len(df)}")
-    print(df[TARGET].describe())
     return df
 
 

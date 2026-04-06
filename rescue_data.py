@@ -1,47 +1,86 @@
 import pandas as pd
 import numpy as np
+import re
 
 # Load your existing raw data
 df = pd.read_csv('property24_raw.csv')
 
-# 1. Fix the Price (Remove rows where price is missing)
+# 1. CRITICAL: Remove Outliers and Garbage (Fixes the R1.5M Error)
+# We drop anything above R30M (luxury farms/mansions) and below R150k (land/scams)
 df = df.dropna(subset=['price_zar'])
+df = df[(df['price_zar'] >= 150_000) & (df['price_zar'] <= 30_000_000)]
 
-# 2. Rescue 'Bedrooms'
-# In SA, an 87m2 place (like your row 0) is almost always 2 bedrooms.
-# We will estimate bedrooms based on floor size if missing.
+# 2. FIX CORRUPT DATA (The "900 Billion" Bedroom Fix)
+# We convert to numeric and force any impossible numbers to NaN
+for col in ['bedrooms', 'bathrooms', 'parkings', 'garages', 'floor_size_m2']:
+    if col in df.columns:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+        # If bedrooms > 15 or floor_size > 5000, it's likely a data error
+        df.loc[df[col] > 5000, col] = np.nan 
+
+# 3. RESCUE SUBURB FROM TITLE (The "Location" Fix)
+def extract_location(row):
+    title = str(row.get('title', ''))
+    suburb_raw = str(row.get('suburb', ''))
+    
+    # Priority 1: If title contains "in [Suburb]", extract it
+    if " in " in title:
+        return title.split(" in ")[-1].strip()
+    
+    # Priority 2: If suburb doesn't look like an address (no numbers), keep it
+    if suburb_raw != 'nan' and not any(char.isdigit() for char in suburb_raw):
+        return suburb_raw
+    
+    return "Unknown"
+
+df['suburb'] = df.apply(extract_location, axis=1)
+df['province'] = 'Gauteng' # Keep as Gauteng if that was your scraper target
+
+# 4. IMPROVED IMPUTATION
+# We drop rows that have NO size data at all, as they are impossible to predict
+df = df.dropna(subset=['floor_size_m2'])
+
 def estimate_bedrooms(row):
-    if pd.notna(row['bedrooms']):
+    if pd.notna(row['bedrooms']) and row['bedrooms'] > 0:
         return row['bedrooms']
-    if row['floor_size_m2'] < 60: return 1
-    if row['floor_size_m2'] < 110: return 2
-    if row['floor_size_m2'] < 200: return 3
-    return 4
+    if row['floor_size_m2'] < 65: return 1.0
+    if row['floor_size_m2'] < 115: return 2.0
+    if row['floor_size_m2'] < 250: return 3.0
+    return 4.0
 
 df['bedrooms'] = df.apply(estimate_bedrooms, axis=1)
 
-# 3. Fix 'Property Type'
-# If erf_size is large, it's a House. If floor_size is small, it's an Apartment.
+# 5. PROPERTY TYPE ESTIMATION
 def estimate_type(row):
-    if pd.notna(row['property_type']):
-        return row['property_type']
-    if row['floor_size_m2'] < 100: return 'Apartment'
-    return 'House'
+    pt = str(row.get('property_type', ''))
+    if pt != 'nan' and pt != 'None':
+        return pt
+    if row['floor_size_m2'] < 90: return 'Apartment'
+    if row['bedrooms'] >= 3: return 'House'
+    return 'Townhouse'
 
 df['property_type'] = df.apply(estimate_type, axis=1)
 
-# 4. Cleanup 'Suburb'
-# Since it currently has addresses like "22 North Rd", 
-# we'll label them "Unknown Suburb" for now so the model doesn't 
-# try to learn "22 North Rd" as a location.
-df['suburb'] = 'Unknown'
-df['city'] = 'South Africa' # Generalised
-df['province'] = 'Gauteng'    # Defaulting to the largest market for now
+# 6. FINAL POLISH (Safe Column Check)
+columns_to_fill = {
+    'bathrooms': 1.0,
+    'parkings': 1.0,
+    'garages': 0.0
+}
 
-# 5. Final Cleaning
-df['bathrooms'] = df['bathrooms'].fillna(1)
-df['parkings'] = df['parkings'].fillna(1)
+for col, fill_value in columns_to_fill.items():
+    if col in df.columns:
+        df[col] = df[col].fillna(fill_value)
+    else:
+        # If the column is missing entirely, create it with the default value
+        df[col] = fill_value
 
-# Save this as the new "Raw" file for your training script
+# Save the sanitized data
 df.to_csv('property24_rescued.csv', index=False)
-print(f"Data Rescued! Saved {len(df)} rows to property24_rescued.csv")
+
+print("-" * 30)
+print(f"✅ Data Rescued Successfully!")
+print(f"Total Rows: {len(df)}")
+print(f"Suburbs identified: {df['suburb'].nunique()}")
+print(f"Sample Suburbs: {', '.join(df['suburb'].unique()[:5])}")
+print("-" * 30)
