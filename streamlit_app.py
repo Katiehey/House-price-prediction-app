@@ -95,6 +95,7 @@ if __name__ == "__main__":
     )
 
     st.title("SA Property Price Predictor")
+    result_container = st.empty()
     st.caption("Powered by Property24 market data · Prices in ZAR · Areas in m²")
 
     if not using_sa_model:
@@ -179,11 +180,17 @@ if __name__ == "__main__":
             usd_price = pipeline.predict(input_df)[0]
             predicted_price = usd_price * 18.5
 
-        # --- EVERYTHING BELOW IS NOW INSIDE THE BUTTON BLOCK ---
-        st.success(f"Estimated Property Value: **R {predicted_price:,.0f}**")
 
         lower_bound = predicted_price * 0.85
         upper_bound = predicted_price * 1.15
+        
+        # --- EVERYTHING BELOW IS NOW INSIDE THE BUTTON BLOCK ---
+        with result_container.container():
+            st.success(f"### Estimated Property Value: **R {predicted_price:,.0f}**")
+            st.info(f"💡 **Market Estimate Range:** R {lower_bound:,.0f} — R {upper_bound:,.0f}")
+            st.divider()
+
+        
 
         st.info(f"💡 **Market Estimate Range:** R {lower_bound:,.0f} — R {upper_bound:,.0f}")
         
