@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 import re
-from streamlit_app import SUBURBS_BY_PROVINCE
+from constants import SUBURBS_BY_PROVINCE
+
 
 # Load your existing raw data
 df = pd.read_csv('property24_raw.csv')
@@ -148,7 +149,6 @@ for col, fill_value in columns_to_fill.items():
         df[col] = fill_value
 
 # Save the sanitized data
-df = df[df['suburb'] != 'Unknown']
 df.to_csv('property24_rescued.csv', index=False)
 
 print("-" * 30)

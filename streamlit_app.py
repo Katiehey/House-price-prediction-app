@@ -4,6 +4,7 @@ import json
 import pandas as pd
 import numpy as np
 import os
+from constants import SA_PROVINCES, SUBURBS_BY_PROVINCE, PROPERTY_TYPES, calculate_transfer_duty
 
 # ---------------------------------------------------------------------------
 # Paths — SA model takes priority; fall back to legacy Ames model with warning
@@ -38,107 +39,33 @@ except Exception as e:
     st.error(f"Error loading model: {e}")
     st.stop()
 
-# ---------------------------------------------------------------------------
-# SA reference data
-# ---------------------------------------------------------------------------
-SA_PROVINCES = [
-    "Gauteng", "Western Cape", "KwaZulu-Natal", "Eastern Cape",
-    "Limpopo", "Mpumalanga", "North West", "Free State", "Northern Cape",
-]
 
-# Curated suburb list per province (top property markets)
-SUBURBS_BY_PROVINCE: dict[str, list[str]] = {
-    "Gauteng": [
-        "Sandton", "Rosebank", "Morningside", "Fourways", "Midrand",
-        "Centurion", "Pretoria East", "Bryanston", "Randburg", "Edenvale",
-        "Bedfordview", "Boksburg", "Soweto", "Alexandra", "Maboneng",
-        "Northcliff", "Westcliff", "Houghton", "Parktown", "Melville",
-    ],
-    "Western Cape": [
-        "Camps Bay", "Clifton", "Sea Point", "Green Point", "Waterfront",
-        "Constantia", "Bishopscourt", "Claremont", "Rondebosch", "Newlands",
-        "Stellenbosch", "Paarl", "Somerset West", "Strand", "George",
-        "Knysna", "Plettenberg Bay", "Franschhoek", "Hermanus", "Mossel Bay",
-    ],
-    "KwaZulu-Natal": [
-        "Umhlanga", "Ballito", "La Lucia", "Durban North", "Berea",
-        "Glenwood", "Westville", "Hillcrest", "Pinetown", "Amanzimtoti",
-        "Pietermaritzburg", "Howick", "Margate", "Port Shepstone", "Richards Bay",
-    ],
-    "Eastern Cape": [
-        "Gqeberha (Port Elizabeth)", "Summerstrand", "Humewood", "Jeffreys Bay",
-        "East London", "Vincent", "Beacon Bay", "Mdantsane", "Grahamstown",
-    ],
-    "Limpopo": [
-        "Polokwane", "Tzaneen", "Phalaborwa", "Louis Trichardt", "Mokopane",
-    ],
-    "Mpumalanga": [
-        "Mbombela (Nelspruit)", "White River", "Hazyview", "Witbank (eMalahleni)", "Secunda",
-    ],
-    "North West": [
-        "Rustenburg", "Potchefstroom", "Klerksdorp", "Hartbeespoort", "Brits",
-    ],
-    "Free State": [
-        "Bloemfontein", "Welkom", "Bethlehem", "Sasolburg", "Parys",
-    ],
-    "Northern Cape": [
-        "Kimberley", "Upington", "Springbok", "De Aar", "Kuruman",
-    ],
-}
+# Load model metadata (MAE and Listing Count)
+try:
+    with open("model_metadata.json", "r") as f:
+        metadata = json.load(f)
+        display_mae = metadata.get("mae", 890000)
+        display_listings = metadata.get("listings", 1284)
+except Exception:
+    display_mae = 890000
+    display_listings = 1284
+
 
 # --- NEW: Load the actual rescued suburbs for smart filtering ---
 try:
     if os.path.exists("property24_rescued.csv"):
         rescued_df = pd.read_csv("property24_rescued.csv")
-        # Group suburbs by province from the ACTUAL data
-        DYNAMIC_SUBURBS = rescued_df.groupby('province')['suburb'].unique().apply(list).to_dict()
+        # New Filter: No numbers, at least 3 chars, not "Unknown"
+        DYNAMIC_SUBURBS = {}
+        for prov in SA_PROVINCES:
+            raw_subs = rescued_df[rescued_df['province'] == prov]['suburb'].unique()
+            valid_subs = [s for s in raw_subs if len(str(s)) > 2 and not any(c.isdigit() for c in str(s)) and s != "Unknown"]
+            DYNAMIC_SUBURBS[prov] = valid_subs
     else:
         DYNAMIC_SUBURBS = {}
 except Exception:
     DYNAMIC_SUBURBS = {}
 
-
-PROPERTY_TYPES = [
-    "House",
-    "Apartment",
-    "Townhouse",
-    "Cluster",
-    "Vacant Land",
-    "Farm",
-    "Commercial",
-]
-
-# ---------------------------------------------------------------------------
-# Bond & Transfer cost calculators (SA-specific)
-# ---------------------------------------------------------------------------
-TRANSFER_DUTY_BRACKETS = [
-    (1_100_000, 0.00),
-    (1_512_500, 0.03),
-    (2_117_500, 0.06),
-    (2_722_500, 0.08),
-    (12_100_000, 0.11),
-    (float("inf"), 0.13),
-]
-TRANSFER_DUTY_THRESHOLDS = [0, 1_100_000, 1_512_500, 2_117_500, 2_722_500, 12_100_000]
-
-
-# ---------------------------------------------------------------------------
-# Updated 2026/27 SARS Transfer Duty Brackets
-# ---------------------------------------------------------------------------
-def calculate_transfer_duty(price: float) -> float:
-    """Calculate SARS transfer duty for 2026/27 tax year (Effective 1 April 2026)."""
-    if price <= 1_210_000:
-        return 0.0
-    elif price <= 1_663_800:
-        return (price - 1_210_000) * 0.03
-    elif price <= 2_329_300:
-        return 13_614 + (price - 1_663_800) * 0.06
-    elif price <= 2_994_800:
-        return 53_544 + (price - 2_329_300) * 0.08
-    elif price <= 13_310_000:
-        return 106_784 + (price - 2_994_800) * 0.11
-    else:
-        return 1_241_456 + (price - 13_310_000) * 0.13
 
 # Updated Bond Fees for 2026
 def calculate_bond_costs(bond_amount: float) -> dict:
@@ -202,7 +129,7 @@ if __name__ == "__main__":
         
         if suburb == "Other":
             suburb = st.text_input("Enter suburb name", value="", placeholder="e.g. Pofadder")
-            st.info("💡 Since this location is not in our primary database, Find My Home will use regional averages for the estimate.")
+            st.info("💡 Since this location is not in our primary database, SA Property Predictor will use regional averages for the estimate.")
 
         st.subheader("Property Type")
         property_type = st.selectbox("Type", PROPERTY_TYPES)
@@ -226,6 +153,9 @@ if __name__ == "__main__":
     deposit_pct = st.slider("Deposit (%)", min_value=0, max_value=50, value=10)
 
     if st.button("Predict Property Value", type="primary"):
+        if floor_size_m2 <= 0 and erf_size_m2 <= 0:
+            st.error("Please provide at least a Floor Size or Erf Size for a valid prediction.")
+            st.stop()
         if using_sa_model:
             input_data = {
                 "floor_size_m2": floor_size_m2,
@@ -257,13 +187,8 @@ if __name__ == "__main__":
 
         st.info(f"💡 **Market Estimate Range:** R {lower_bound:,.0f} — R {upper_bound:,.0f}")
         
-        try:
-            df_for_count = pd.read_csv("property24_rescued.csv")
-            listing_count = len(df_for_count)
-        except:
-            listing_count = 1284 # Fallback to your known rescued count
 
-        st.caption(f"Note: Current model has a MAE of ~R890k based on {listing_count} local listings.")
+        st.caption(f"Note: Current model has a Mean Absolute Error of **R {display_mae:,.0f}** based on **{display_listings:,}** local listings.")
 
         # Price band logic
         if predicted_price < 480_000:
@@ -299,7 +224,8 @@ if __name__ == "__main__":
         cost_df["Amount"] = cost_df["Amount"].apply(lambda x: f"R {x:,.0f}")
         st.table(cost_df)
 
-        total_upfront = transfer_duty + conveyancing + sum(bond_costs.values()) + deposit
+        total_bond_fees = bond_costs["Bank Initiation fee"] + bond_costs["Deeds Office Registration"] + bond_costs["Bond Attorney fee (incl. VAT)"]
+        total_upfront = transfer_duty + conveyancing + total_bond_fees + deposit
         st.metric("Total cash needed upfront", f"R {total_upfront:,.0f}")
 
     # ---------------------------------------------------------------------------
@@ -352,7 +278,7 @@ if __name__ == "__main__":
     # ---------------------------------------------------------------------------
     st.divider()
     st.caption(
-        "Data sourced from Property24 via Apify scraper · "
-        "Transfer duty rates per SARS 2026/27 · "
-        "Bond costs are estimates only — consult a bond originator for exact figures."
+        f"Data sourced from Property24 · Analyzed {display_listings:,} listings · "
+        f"Model Accuracy (MAE): R {display_mae:,.0f} · "
+        "Transfer duty rates per SARS 2026/27."
     )

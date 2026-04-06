@@ -1,16 +1,16 @@
 === SA House Price Model — Training Report ===
-Training samples : 150
-Test samples     : 38
+Training samples : 1,027
+Test samples     : 257
 
-R²   : 0.2070
-MAE  : R718,343
-RMSE : R1,218,115
+R²   : 0.5657
+MAE  : R825,943
+RMSE : R1,959,834
 
 Price band distribution (test set):
-  Middle (R480k – R1.5m): 24
-  Upper-Middle (R1.5m – R3.5m): 7
-  Luxury (> R3.5m): 6
-  Affordable (< R480k): 1
+  Middle (R480k – R1.5m): 160
+  Upper-Middle (R1.5m – R3.5m): 52
+  Luxury (> R3.5m): 41
+  Affordable (< R480k): 4
 
 Numerical features: floor_size_m2, erf_size_m2, bedrooms, bathrooms, garages, parkings
 Categorical features: province, property_type, suburb

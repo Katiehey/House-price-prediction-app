@@ -202,7 +202,7 @@ def train(df: pd.DataFrame):
         f.write(report)
     print("\nSaved training_report.txt")
 
-    return pipeline
+    return pipeline, mae, len(df)
 
 
 # ---------------------------------------------------------------------------
@@ -219,10 +219,19 @@ def main():
     args = parser.parse_args()
 
     df = load_and_clean(args.input)
-    pipeline = train(df)
+    pipeline, mae_result, total_listings = train(df)
 
     joblib.dump(pipeline, args.model_out)
     print(f"Saved model to {args.model_out}")
+
+    metadata = {
+        "mae": float(mae_result),
+        "listings": int(total_listings)
+    }
+    with open("model_metadata.json", "w") as f:
+        json.dump(metadata, f, indent=2)
+    print("Saved model_metadata.json")
+    # --------------------------------
 
     feature_list = NUMERICAL_FEATURES + CATEGORICAL_FEATURES
     with open(args.features_out, "w") as f:
