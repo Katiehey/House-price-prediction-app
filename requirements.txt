@@ -4,3 +4,5 @@ pandas
 numpy
 streamlit>=1.35.0
 joblib
+apify-client
+requests

@@ -1,4 +1,3 @@
-
 import streamlit as st
 import joblib
 import json
@@ -6,69 +5,322 @@ import pandas as pd
 import numpy as np
 import os
 
-# Define the paths where your files are saved within Kaggle
-MODEL_PATH = 'house_price_prediction_pipeline.joblib'
-FEATURES_PATH = 'feature_list.json'
+# ---------------------------------------------------------------------------
+# Paths — SA model takes priority; fall back to legacy Ames model with warning
+# ---------------------------------------------------------------------------
+SA_MODEL_PATH   = "sa_house_price_pipeline.joblib"
+SA_FEATURES_PATH = "sa_feature_list.json"
 
-# --- Load the Model and Feature List ---
+LEGACY_MODEL_PATH    = "house_price_prediction_pipeline.joblib"
+LEGACY_FEATURES_PATH = "feature_list.json"
+
+SA_NUMERICAL_FEATURES   = ["floor_size_m2", "erf_size_m2", "bedrooms", "bathrooms", "garages", "parkings"]
+SA_CATEGORICAL_FEATURES = ["province", "property_type", "suburb"]
+
+# ---------------------------------------------------------------------------
+# Load model
+# ---------------------------------------------------------------------------
+using_sa_model = os.path.exists(SA_MODEL_PATH)
+
 try:
-    pipeline = joblib.load(MODEL_PATH)
-    with open(FEATURES_PATH, 'r') as f:
-        raw_feature_names = json.load(f)
+    if using_sa_model:
+        pipeline = joblib.load(SA_MODEL_PATH)
+        with open(SA_FEATURES_PATH, "r") as f:
+            raw_feature_names = json.load(f)
+    else:
+        pipeline = joblib.load(LEGACY_MODEL_PATH)
+        with open(LEGACY_FEATURES_PATH, "r") as f:
+            raw_feature_names = json.load(f)
 except FileNotFoundError:
-    st.error("Model or feature list files not found. Ensure they are in /kaggle/working/")
+    st.error("No model file found. Run `train_sa_model.py` to generate `sa_house_price_pipeline.joblib`.")
     st.stop()
 except Exception as e:
-    st.error(f"Error loading files: {e}")
+    st.error(f"Error loading model: {e}")
     st.stop()
 
-# --- Define Features (Use the correct capitalization from your training script!) ---
-# These lists must match your training script exactly
-numerical_features = ['lotarea', 'yearremodadd', 'masvnrarea', 'bsmtfinsf1', 'bsmtunfsf', 'totalbsmtsf', '1stflrsf', '2ndflrsf', 'grlivarea', 'fireplaces', 'garagecars', 'poolarea', 'yrsold']
-categorical_features = ['neighborhood', 'overallqual', 'overallcond', 'bsmtexposure', 'kitchenqual', 'saletype']
+# ---------------------------------------------------------------------------
+# SA reference data
+# ---------------------------------------------------------------------------
+SA_PROVINCES = [
+    "Gauteng", "Western Cape", "KwaZulu-Natal", "Eastern Cape",
+    "Limpopo", "Mpumalanga", "North West", "Free State", "Northern Cape",
+]
 
-# --- Streamlit UI ---
-st.title("House Price Prediction App")
+# Curated suburb list per province (top property markets)
+SUBURBS_BY_PROVINCE: dict[str, list[str]] = {
+    "Gauteng": [
+        "Sandton", "Rosebank", "Morningside", "Fourways", "Midrand",
+        "Centurion", "Pretoria East", "Bryanston", "Randburg", "Edenvale",
+        "Bedfordview", "Boksburg", "Soweto", "Alexandra", "Maboneng",
+        "Northcliff", "Westcliff", "Houghton", "Parktown", "Melville",
+    ],
+    "Western Cape": [
+        "Camps Bay", "Clifton", "Sea Point", "Green Point", "Waterfront",
+        "Constantia", "Bishopscourt", "Claremont", "Rondebosch", "Newlands",
+        "Stellenbosch", "Paarl", "Somerset West", "Strand", "George",
+        "Knysna", "Plettenberg Bay", "Franschhoek", "Hermanus", "Mossel Bay",
+    ],
+    "KwaZulu-Natal": [
+        "Umhlanga", "Ballito", "La Lucia", "Durban North", "Berea",
+        "Glenwood", "Westville", "Hillcrest", "Pinetown", "Amanzimtoti",
+        "Pietermaritzburg", "Howick", "Margate", "Port Shepstone", "Richards Bay",
+    ],
+    "Eastern Cape": [
+        "Gqeberha (Port Elizabeth)", "Summerstrand", "Humewood", "Jeffreys Bay",
+        "East London", "Vincent", "Beacon Bay", "Mdantsane", "Grahamstown",
+    ],
+    "Limpopo": [
+        "Polokwane", "Tzaneen", "Phalaborwa", "Louis Trichardt", "Mokopane",
+    ],
+    "Mpumalanga": [
+        "Mbombela (Nelspruit)", "White River", "Hazyview", "Witbank (eMalahleni)", "Secunda",
+    ],
+    "North West": [
+        "Rustenburg", "Potchefstroom", "Klerksdorp", "Hartbeespoort", "Brits",
+    ],
+    "Free State": [
+        "Bloemfontein", "Welkom", "Bethlehem", "Sasolburg", "Parys",
+    ],
+    "Northern Cape": [
+        "Kimberley", "Upington", "Springbok", "De Aar", "Kuruman",
+    ],
+}
 
-# Create a dictionary to store user inputs
-user_inputs = {}
+PROPERTY_TYPES = [
+    "House",
+    "Apartment",
+    "Townhouse",
+    "Cluster",
+    "Vacant Land",
+    "Farm",
+    "Commercial",
+]
 
-# Use columns for a cleaner layout
+# ---------------------------------------------------------------------------
+# Bond & Transfer cost calculators (SA-specific)
+# ---------------------------------------------------------------------------
+TRANSFER_DUTY_BRACKETS = [
+    (1_100_000, 0.00),
+    (1_512_500, 0.03),
+    (2_117_500, 0.06),
+    (2_722_500, 0.08),
+    (12_100_000, 0.11),
+    (float("inf"), 0.13),
+]
+TRANSFER_DUTY_THRESHOLDS = [0, 1_100_000, 1_512_500, 2_117_500, 2_722_500, 12_100_000]
+
+
+# ---------------------------------------------------------------------------
+# Updated 2026/27 SARS Transfer Duty Brackets
+# ---------------------------------------------------------------------------
+def calculate_transfer_duty(price: float) -> float:
+    """Calculate SARS transfer duty for 2026/27 tax year (Effective 1 April 2026)."""
+    if price <= 1_210_000:
+        return 0.0
+    elif price <= 1_663_800:
+        return (price - 1_210_000) * 0.03
+    elif price <= 2_329_300:
+        return 13_614 + (price - 1_663_800) * 0.06
+    elif price <= 2_994_800:
+        return 53_544 + (price - 2_329_300) * 0.08
+    elif price <= 13_310_000:
+        return 106_784 + (price - 2_994_800) * 0.11
+    else:
+        return 1_241_456 + (price - 13_310_000) * 0.13
+
+# Updated Bond Fees for 2026
+def calculate_bond_costs(bond_amount: float) -> dict:
+    """Estimate 2026 bond registration and initiation fees."""
+    initiation_fee = 6_037.50 # Fixed NCA cap for 2026
+    # 2026 Deeds Office fee for bond registration
+    registration_fee = 2_408 if bond_amount > 2_000_000 else 1_738 
+    # Recommended attorney scale (~1.5% of value for lower bands)
+    attorney_fee = 26_385 if bond_amount > 1_000_000 else 15_725 
+    
+    return {
+        "Bank Initiation fee": initiation_fee,
+        "Deeds Office Registration": registration_fee,
+        "Bond Attorney fee (incl. VAT)": attorney_fee * 1.15,
+    }
+
+# ---------------------------------------------------------------------------
+# Page config
+# ---------------------------------------------------------------------------
+st.set_page_config(
+    page_title="SA Property Price Predictor",
+    page_icon="🏠",
+    layout="wide",
+)
+
+st.title("South African Property Price Predictor")
+st.caption("Powered by Property24 market data · Prices in ZAR · Areas in m²")
+
+if not using_sa_model:
+    st.warning(
+        "**Demo mode** — the SA-trained model has not been generated yet. "
+        "The predictions shown use the legacy Ames (Iowa) model and are **not valid** for South African properties. "
+        "Run `fetch_property24_data.py` then `train_sa_model.py` to generate the SA model.",
+        icon="⚠️",
+    )
+
+# ---------------------------------------------------------------------------
+# Main prediction form
+# ---------------------------------------------------------------------------
+st.header("Property Details")
+
 col1, col2 = st.columns(2)
 
-# Generate inputs for numerical features
 with col1:
-    st.subheader("Numerical Inputs")
-    for feature in numerical_features:
-        user_inputs[feature] = st.number_input(f"Enter value for {feature}", value=0.0)
+    st.subheader("Location")
+    province = st.selectbox("Province", SA_PROVINCES)
+    suburb_options = SUBURBS_BY_PROVINCE.get(province, ["Other"])
+    suburb = st.selectbox("Suburb", suburb_options + ["Other"])
+    if suburb == "Other":
+        suburb = st.text_input("Enter suburb name", value="")
 
-# Generate inputs for categorical features
+    st.subheader("Property Type")
+    property_type = st.selectbox("Type", PROPERTY_TYPES)
+
 with col2:
-    st.subheader("Categorical Inputs")
-    for feature in categorical_features:
-        # Define options for dropdowns based on your training data unique values
-        if feature == 'neighborhood':
-            options = ['Blmngtn', 'Blueste', 'BrDale', 'BrkSide', 'ClearCr', 'CollgCr', 'Crawfor', 'Edwards', 'Gilbert', 'IDotRR', 'MeadowV', 'Mitchel', 'NAmes', 'NoRidge', 'NPkVill', 'NridgHt', 'NWames', 'OldTown', 'SWISU', 'Sawyer', 'SawyerW', 'Somerst', 'StoneBr', 'Timber', 'Veenker']
-        elif feature == 'overallqual' or feature == 'overallcond':
-            options = ['10','9','8','7','6','5','4','3','2','1']
-        elif feature == 'bsmtexposure':
-            options = ['Gd', 'Av', 'Mn', 'No', 'NA']
-        elif feature == 'kitchenqual':
-            options = ['Ex', 'Gd', 'TA', 'Fa', 'Po']
-        elif feature == 'saletype':
-            options = ['WD', 'CWD', 'VWD', 'New', 'COD', 'Con', 'ConLW', 'ConLI', 'ConLD', 'Oth']
-        else:
-            options = ['N/A'] # Fallback
+    st.subheader("Size")
+    floor_size_m2 = st.number_input("Floor size (m²)", min_value=0.0, value=120.0, step=5.0)
+    erf_size_m2   = st.number_input("Erf / plot size (m²)", min_value=0.0, value=500.0, step=10.0,
+                                     help="Leave 0 for apartments or sectional-title units")
+
+    st.subheader("Rooms")
+    bedrooms  = st.number_input("Bedrooms",  min_value=0, max_value=20, value=3, step=1)
+    bathrooms = st.number_input("Bathrooms", min_value=0, max_value=20, value=2, step=1)
+    garages   = st.number_input("Garages",   min_value=0, max_value=10, value=1, step=1)
+    parkings  = st.number_input("Extra parking bays", min_value=0, max_value=10, value=0, step=1)
+
+# ---------------------------------------------------------------------------
+# Prediction
+# ---------------------------------------------------------------------------
+if st.button("Predict Property Value", type="primary"):
+    if using_sa_model:
+        # This MUST match the feature names used in train_sa_model.py
+        input_data = {
+            "floor_size_m2": floor_size_m2,
+            "erf_size_m2":   erf_size_m2,
+            "bedrooms":      float(bedrooms),
+            "bathrooms":     float(bathrooms),
+            "garages":       float(garages),
+            "parkings":      float(parkings),
+            "province":      province,
+            "property_type": property_type,
+            "suburb":        suburb if suburb else "Unknown",
+        }
+        input_df = pd.DataFrame([input_data])
         
-        user_inputs[feature] = st.selectbox(f"Select option for {feature}", options=options)
+        # Ensure columns are in the EXACT order the model saw during training
+        # If your training script saved raw_feature_names, use them here:
+        input_df = input_df[raw_feature_names] 
+        
+        predicted_price = pipeline.predict(input_df)[0]
+    else:
+        # Legacy model: map SA inputs to Ames feature names as a rough demo
+        legacy_inputs = {feat: 0.0 for feat in raw_feature_names}
+        legacy_inputs["grlivarea"]    = floor_size_m2 * 10.764  # m² → sqft
+        legacy_inputs["lotarea"]      = erf_size_m2 * 10.764
+        legacy_inputs["garagecars"]   = float(garages)
+        legacy_inputs["fireplaces"]   = 0.0
+        legacy_inputs["yearremodadd"] = 2010
+        legacy_inputs["yrsold"]       = 2010
+        legacy_inputs["neighborhood"] = "NAmes"
+        legacy_inputs["overallqual"]  = "5"
+        legacy_inputs["overallcond"]  = "5"
+        legacy_inputs["bsmtexposure"] = "No"
+        legacy_inputs["kitchenqual"]  = "TA"
+        legacy_inputs["saletype"]     = "WD"
+        input_df = pd.DataFrame([legacy_inputs])
+        # Legacy model predicts in USD — convert to ZAR (approximate)
+        usd_price = pipeline.predict(input_df)[0]
+        predicted_price = usd_price * 18.5  # rough USD/ZAR rate
 
-# The prediction button
-if st.button("Predict SalePrice"):
-    # Convert inputs dictionary to a DataFrame (single row)
-    input_df = pd.DataFrame([user_inputs])
+    st.success(f"Estimated property value: **R {predicted_price:,.0f}**")
 
-    # The pipeline handles all preprocessing
-    prediction = pipeline.predict(input_df)
-    
-    st.success(f"The predicted house price is: ${prediction[0]:,.2f}")
+    # Price band
+    if predicted_price < 480_000:
+        band = "Affordable (below R480k)"
+    elif predicted_price < 1_500_000:
+        band = "Middle market (R480k – R1.5m)"
+    elif predicted_price < 3_500_000:
+        band = "Upper-middle (R1.5m – R3.5m)"
+    else:
+        band = "Luxury (above R3.5m)"
+    st.info(f"Market segment: {band}")
 
+    # --- Cost breakdown ---
+    st.subheader("Estimated Purchase Costs")
+    deposit_pct = st.slider("Deposit (%)", min_value=0, max_value=50, value=10)
+    deposit = predicted_price * deposit_pct / 100
+    bond_amount = predicted_price - deposit
+    transfer_duty = calculate_transfer_duty(predicted_price)
+    bond_costs = calculate_bond_costs(bond_amount)
+    conveyancing = predicted_price * 0.015  # approximate conveyancing attorney fees
+
+    cost_items = {
+        "Purchase price": predicted_price,
+        "Deposit": -deposit,
+        "Transfer duty (SARS)": transfer_duty,
+        "Conveyancing attorney": conveyancing,
+        **bond_costs,
+    }
+
+    cost_df = pd.DataFrame(
+        [(k, f"R {v:,.0f}") for k, v in cost_items.items()],
+        columns=["Item", "Amount"],
+    )
+    st.table(cost_df)
+
+    total_upfront = transfer_duty + conveyancing + sum(bond_costs.values()) + deposit
+    st.metric("Total cash needed upfront", f"R {total_upfront:,.0f}")
+
+# ---------------------------------------------------------------------------
+# Standalone calculators
+# ---------------------------------------------------------------------------
+st.divider()
+st.header("Calculators")
+
+calc_tab1, calc_tab2 = st.tabs(["Bond Repayment", "Transfer Duty"])
+
+with calc_tab1:
+    st.subheader("Monthly Bond Repayment")
+    bc1, bc2, bc3 = st.columns(3)
+    with bc1:
+        loan_amount = st.number_input("Loan amount (R)", min_value=0.0, value=1_000_000.0, step=10_000.0)
+    with bc2:
+        # UPDATED: 2026 Prime Rate is ~10.25%
+        interest_rate = st.number_input("Interest rate (%)", min_value=0.0, max_value=30.0, value=10.25, step=0.25,
+                                         help="South African prime rate (April 2026) is 10.25%")
+    with bc3:
+        loan_term_years = st.number_input("Loan term (years)", min_value=1, max_value=30, value=20)
+
+    if loan_amount > 0 and interest_rate > 0:
+        r = (interest_rate / 100) / 12
+        n = loan_term_years * 12
+        monthly = loan_amount * r / (1 - (1 + r) ** -n)
+        total_repaid = monthly * n
+        st.metric("Monthly repayment", f"R {monthly:,.0f}")
+        st.metric("Total repaid over term", f"R {total_repaid:,.0f}")
+        st.metric("Total interest", f"R {total_repaid - loan_amount:,.0f}")
+
+with calc_tab2:
+    st.subheader("Transfer Duty (SARS 2026/27 Rates)")
+    td_price = st.number_input("Property purchase price (R)", min_value=0.0, value=1_500_000.0, step=50_000.0)
+    duty = calculate_transfer_duty(td_price)
+    if td_price <= 1_100_000:
+        st.success(f"No transfer duty payable — properties below R1,100,000 are exempt.")
+    else:
+        st.metric("Transfer duty payable", f"R {duty:,.0f}")
+        st.caption(f"That is {duty/td_price*100:.2f}% of the purchase price.")
+
+# ---------------------------------------------------------------------------
+# Footer
+# ---------------------------------------------------------------------------
+st.divider()
+st.caption(
+    "Data sourced from Property24 via Apify scraper · "
+    "Transfer duty rates per SARS 2026/27 · "
+    "Bond costs are estimates only — consult a bond originator for exact figures."
+)

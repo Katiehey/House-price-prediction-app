@@ -1,0 +1,11 @@
+[
+  "floor_size_m2",
+  "erf_size_m2",
+  "bedrooms",
+  "bathrooms",
+  "garages",
+  "parkings",
+  "province",
+  "property_type",
+  "suburb"
+]
