@@ -1,1285 +1,189 @@
-price_zar,city,suburb,property_type,bedrooms,bathrooms,parkings,floor_size_m2,erf_size_m2,title,province,garages
-2200000.0,,Unknown,Apartment,2.0,2.0,1.0,87.0,,,Gauteng,0.0
-4200000.0,,Unknown,Apartment,2.0,1.5,2.0,78.0,,,Gauteng,0.0
-9800000.0,,Unknown,House,4.0,1.0,1.0,2000.0,,,Gauteng,0.0
-3710000.0,,Unknown,House,3.0,3.0,2.0,121.0,,,Gauteng,0.0
-2180000.0,,Unknown,Apartment,2.0,2.0,2.0,65.0,,,Gauteng,0.0
-1305000.0,,Unknown,Apartment,1.0,1.0,1.0,33.0,,,Gauteng,0.0
-8000000.0,,Unknown,House,4.0,1.0,1.0,1043.0,,,Gauteng,0.0
-2200000.0,,Unknown,Apartment,2.0,2.0,1.0,87.0,,,Gauteng,0.0
-699000.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-580000.0,,Unknown,Apartment,1.0,1.0,1.0,33.0,,,Gauteng,0.0
-995000.0,,Unknown,Townhouse,2.0,2.0,1.0,98.0,,,Gauteng,0.0
-5000000.0,,Unknown,House,4.0,1.0,1.0,900.0,,,Gauteng,0.0
-1290000.0,,Unknown,Apartment,2.0,2.0,2.0,79.0,,,Gauteng,0.0
-2850000.0,,Unknown,House,3.0,2.5,2.0,207.0,,,Gauteng,0.0
-1350000.0,,Unknown,Townhouse,2.0,1.0,1.0,105.0,,,Gauteng,0.0
-5700000.0,,Unknown,House,4.0,1.0,1.0,1963.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,1.5,1.0,86.0,,,Gauteng,0.0
-445000.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-3500000.0,,Unknown,House,4.0,1.0,1.0,1100.0,,,Gauteng,0.0
-1450000.0,,Unknown,Apartment,2.0,2.0,2.0,78.0,,,Gauteng,0.0
-3500000.0,,Unknown,House,4.0,1.0,1.0,990.0,,,Gauteng,0.0
-670000.0,,Unknown,Apartment,1.0,1.0,2.0,49.0,,,Gauteng,0.0
-1295000.0,,Unknown,Apartment,1.0,1.0,1.0,33.0,,,Gauteng,0.0
-1500000.0,,Unknown,Townhouse,2.0,2.0,2.0,102.0,,,Gauteng,0.0
-3500000.0,,Unknown,House,4.0,1.0,1.0,2110.0,,,Gauteng,0.0
-970000.0,,Unknown,Apartment,2.0,2.0,2.0,84.0,,,Gauteng,0.0
-1295000.0,,Unknown,Apartment,1.0,1.0,1.0,33.0,,,Gauteng,0.0
-6800000.0,,Unknown,House,4.0,1.0,1.0,3020.0,,,Gauteng,0.0
-2220000.0,,Unknown,Apartment,2.0,2.0,2.0,65.0,,,Gauteng,0.0
-3500000.0,,Unknown,House,4.0,1.0,1.0,1300.0,,,Gauteng,0.0
-1050000.0,,Unknown,Townhouse,2.0,2.0,3.0,98.0,,,Gauteng,0.0
-1695000.0,,Unknown,Townhouse,2.0,2.0,2.0,112.0,,,Gauteng,0.0
-2299000.0,,Unknown,Apartment,2.0,2.0,1.0,76.0,,,Gauteng,0.0
-765000.0,,Unknown,Apartment,2.0,1.0,1.0,70.0,,,Gauteng,0.0
-3785000.0,,Unknown,House,3.0,3.5,3.0,153.0,,,Gauteng,0.0
-740000.0,,Unknown,Apartment,2.0,2.0,1.0,80.0,,,Gauteng,0.0
-950000.0,,Unknown,House,3.0,1.0,2.0,125.0,,,Gauteng,0.0
-250000.0,,Unknown,House,4.0,1.0,1.0,1239.0,,,Gauteng,0.0
-980000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-850000.0,,Unknown,Townhouse,2.0,1.0,1.0,113.0,,,Gauteng,0.0
-700000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-1155000.0,,Unknown,Apartment,2.0,2.0,2.0,88.0,,,Gauteng,0.0
-1195000.0,,Unknown,Townhouse,2.0,2.0,2.0,111.0,,,Gauteng,0.0
-1699000.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-1100000.0,,Braamfontein Werf,Apartment,2.0,1.0,1.0,80.0,,,Gauteng,0.0
-799900.0,,Unknown,Apartment,1.0,1.0,1.0,43.0,,,Gauteng,0.0
-765000.0,,Unknown,Apartment,2.0,1.0,1.0,70.0,,,Gauteng,0.0
-600000.0,,Unknown,Apartment,1.0,1.0,1.0,61.0,,,Gauteng,0.0
-790000.0,,Unknown,Townhouse,2.0,2.0,2.0,101.0,,,Gauteng,0.0
-495000.0,,Unknown,Apartment,2.0,1.0,2.0,69.0,,,Gauteng,0.0
-1559900.0,,Unknown,Townhouse,2.0,1.0,2.0,108.0,,,Gauteng,0.0
-3995000.0,,Unknown,House,4.0,1.0,1.0,461.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,1.0,1.0,1.0,52.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,1.0,1.0,1.0,52.0,,,Gauteng,0.0
-649950.0,,Unknown,House,3.0,2.0,2.0,123.0,,,Gauteng,0.0
-24750000.0,,Unknown,House,4.0,1.0,1.0,2324.0,,,Gauteng,0.0
-1250000.0,,Unknown,Townhouse,2.0,2.5,2.0,109.0,,,Gauteng,0.0
-1600000.0,,Unknown,House,4.0,2.0,2.0,495.0,,,Gauteng,0.0
-1184000.0,,Unknown,House,3.0,1.5,2.0,152.0,,,Gauteng,0.0
-375000.0,,Unknown,House,4.0,1.0,1.0,995.0,,,Gauteng,0.0
-1270000.0,,Unknown,Apartment,2.0,1.0,1.0,80.0,,,Gauteng,0.0
-580000.0,,Unknown,Apartment,1.0,1.0,2.0,54.0,,,Gauteng,0.0
-685000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-1184000.0,,Unknown,House,3.0,1.5,2.0,152.0,,,Gauteng,0.0
-5500000.0,,Unknown,House,4.0,1.0,1.0,1673.0,,,Gauteng,0.0
-699000.0,,Unknown,Apartment,2.0,1.0,1.0,85.0,,,Gauteng,0.0
-355000.0,,Unknown,Apartment,1.0,1.0,1.0,25.0,,,Gauteng,0.0
-875000.0,,Unknown,House,3.0,2.0,2.0,129.0,,,Gauteng,0.0
-875000.0,,Unknown,House,3.0,2.0,2.0,129.0,,,Gauteng,0.0
-1425500.0,,Unknown,House,3.0,2.0,3.0,139.0,,,Gauteng,0.0
-320000.0,,Unknown,Apartment,1.0,1.0,1.0,49.0,,,Gauteng,0.0
-6500000.0,,Unknown,House,4.0,1.0,1.0,1340.0,,,Gauteng,0.0
-630000.0,,Unknown,Apartment,1.0,1.0,1.0,7.0,,,Gauteng,0.0
-1100000.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-2699000.0,,Unknown,House,3.0,3.5,1.0,245.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-1499999.0,,Unknown,House,3.0,2.0,1.0,158.0,,,Gauteng,0.0
-1650000.0,,Unknown,Apartment,2.0,1.0,1.0,85.0,,,Gauteng,0.0
-649000.0,,Unknown,Apartment,1.0,1.5,1.0,63.0,,,Gauteng,0.0
-450000.0,,Unknown,Apartment,1.0,1.0,1.0,37.0,,,Gauteng,0.0
-800000.0,,Unknown,Apartment,2.0,1.0,1.0,79.0,,,Gauteng,0.0
-2199999.0,,Unknown,House,3.0,1.0,1.0,123.0,,,Gauteng,0.0
-1520000.0,,Unknown,Townhouse,2.0,1.0,1.0,96.0,,,Gauteng,0.0
-2250000.0,,Unknown,House,3.0,2.0,2.0,121.0,,,Gauteng,0.0
-589000.0,,Unknown,Apartment,2.0,1.0,1.0,68.0,,,Gauteng,0.0
-630000.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-1050000.0,,Unknown,Townhouse,2.0,1.5,1.0,99.0,,,Gauteng,0.0
-1000000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-2500000.0,,Unknown,House,4.0,3.5,3.0,297.0,,,Gauteng,0.0
-559000.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-350000.0,,Unknown,Apartment,1.0,1.0,1.0,36.0,,,Gauteng,0.0
-679000.0,,Unknown,Apartment,2.0,2.5,1.0,83.0,,,Gauteng,0.0
-2295000.0,,Unknown,House,3.0,2.5,4.0,180.0,,,Gauteng,0.0
-5995000.0,,Unknown,House,3.0,2.0,2.0,153.0,,,Gauteng,0.0
-599000.0,,Unknown,Apartment,1.0,1.0,2.0,55.0,,,Gauteng,0.0
-3050000.0,,Unknown,Apartment,2.0,2.0,2.0,74.0,,,Gauteng,0.0
-5500000.0,,Piketberg Pl Lenasia South,House,4.0,1.0,1.0,1320.0,,,Gauteng,0.0
-2950000.0,,Unknown,House,3.0,4.5,2.0,170.0,,,Gauteng,0.0
-700000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-765000.0,,Unknown,Apartment,1.0,1.0,1.0,7.0,,,Gauteng,0.0
-1690000.0,,Unknown,Apartment,1.0,1.0,3.0,44.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,2.0,2.0,79.0,,,Gauteng,0.0
-680000.0,,Unknown,Apartment,1.0,1.0,3.0,62.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,1.0,1.0,68.0,,,Gauteng,0.0
-4000000.0,,Unknown,House,4.0,1.0,1.0,1600.0,,,Gauteng,0.0
-2100000.0,,Unknown,House,3.0,2.5,2.0,186.0,,,Gauteng,0.0
-2650000.0,,Unknown,Townhouse,2.0,2.0,2.0,102.0,,,Gauteng,0.0
-4400000.0,,Unknown,House,3.0,2.5,2.0,173.0,,,Gauteng,0.0
-2150000.0,,Unknown,House,3.0,2.0,2.0,155.0,,,Gauteng,0.0
-2850000.0,,Unknown,House,3.0,2.0,2.0,140.0,,,Gauteng,0.0
-695000.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-430000.0,,Unknown,Apartment,1.0,1.0,1.0,43.0,,,Gauteng,0.0
-895000.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-1400000.0,,Unknown,Apartment,2.0,1.0,2.0,88.0,,,Gauteng,0.0
-1790000.0,,Unknown,House,3.0,2.0,1.0,170.0,,,Gauteng,0.0
-799419.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-885000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-920000.0,,Unknown,Apartment,2.0,1.0,2.0,79.0,,,Gauteng,0.0
-2320000.0,,Unknown,House,3.0,2.5,3.0,158.0,,,Gauteng,0.0
-1995000.0,,Unknown,House,3.0,3.0,4.0,169.0,,,Gauteng,0.0
-595000.0,,Unknown,Apartment,1.0,1.0,2.0,48.0,,,Gauteng,0.0
-1150000.0,,Unknown,Apartment,2.0,2.0,1.0,89.0,,,Gauteng,0.0
-500000.0,,Unknown,Apartment,1.0,1.0,2.0,53.0,,,Gauteng,0.0
-799000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-1900000.0,,Unknown,Apartment,2.0,1.0,1.0,67.0,,,Gauteng,0.0
-1995000.0,,Unknown,Townhouse,2.0,2.0,2.0,90.0,,,Gauteng,0.0
-720000.0,,Unknown,Apartment,2.0,2.0,1.0,82.0,,,Gauteng,0.0
-649999.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-1600000.0,,Unknown,House,3.0,2.0,2.0,124.0,,,Gauteng,0.0
-1050000.0,,Unknown,House,3.0,2.0,2.0,127.0,,,Gauteng,0.0
-1100000.0,,Unknown,Apartment,1.0,1.0,1.0,24.0,,,Gauteng,0.0
-2100000.0,,Unknown,House,3.0,2.0,2.0,238.0,,,Gauteng,0.0
-5995000.0,,Unknown,House,4.0,1.0,1.0,581.0,,,Gauteng,0.0
-799999.0,,Unknown,Townhouse,2.0,1.0,2.0,90.0,,,Gauteng,0.0
-2500000.0,,Unknown,House,4.0,2.0,6.0,297.0,,,Gauteng,0.0
-1650000.0,,Unknown,House,3.0,2.0,1.0,184.0,,,Gauteng,0.0
-1000000.0,,Unknown,House,3.0,1.0,2.0,127.0,,,Gauteng,0.0
-700000.0,,Unknown,Apartment,2.0,1.0,2.0,74.0,,,Gauteng,0.0
-699999.0,,Unknown,House,3.0,1.0,2.0,130.0,,,Gauteng,0.0
-3000000.0,,Unknown,House,4.0,1.0,1.0,400.0,,,Gauteng,0.0
-9000000.0,,Unknown,House,4.0,1.0,1.0,657.0,,,Gauteng,0.0
-365000.0,,Unknown,House,3.0,1.0,1.0,116.0,,,Gauteng,0.0
-920000.0,,Unknown,Apartment,1.0,1.0,1.0,57.0,,,Gauteng,0.0
-1184000.0,,Unknown,House,3.0,1.5,2.0,152.0,,,Gauteng,0.0
-25000000.0,,Unknown,House,4.0,1.0,1.0,2324.0,,,Gauteng,0.0
-3906456.0,,Unknown,House,3.0,1.0,1.0,229.0,,,Gauteng,0.0
-6806795.0,,Unknown,House,4.0,1.0,1.0,394.0,,,Gauteng,0.0
-1994960.0,,Unknown,House,3.0,1.0,1.0,118.0,,,Gauteng,0.0
-399000.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-525000.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-870000.0,,Unknown,Townhouse,2.0,2.0,1.0,102.0,,,Gauteng,0.0
-2750000.0,,Unknown,Apartment,2.0,2.5,2.0,75.0,,,Gauteng,0.0
-575000.0,,Unknown,Apartment,1.0,1.0,1.0,41.0,,,Gauteng,0.0
-720000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-4000000.0,,Unknown,House,4.0,1.0,1.0,2400.0,,,Gauteng,0.0
-495000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-3200000.0,,Unknown,Apartment,2.0,2.0,2.0,89.0,,,Gauteng,0.0
-2500000.0,,Unknown,House,4.0,2.0,6.0,1169.0,,,Gauteng,0.0
-1650000.0,,Unknown,House,3.0,2.0,1.0,184.0,,,Gauteng,0.0
-5900000.0,,Unknown,House,4.0,3.5,2.0,267.0,,,Gauteng,0.0
-3999000.0,,Unknown,House,4.0,2.0,6.0,3623.0,,,Gauteng,0.0
-759000.0,,Unknown,Apartment,2.0,1.0,1.0,70.0,,,Gauteng,0.0
-979000.0,,Unknown,Townhouse,2.0,1.0,2.0,90.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,1.0,1.0,97.0,,,Gauteng,0.0
-440000.0,,Unknown,Apartment,1.0,1.0,1.0,37.0,,,Gauteng,0.0
-8500000.0,,Unknown,House,4.0,1.0,1.0,990.0,,,Gauteng,0.0
-2580000.0,,Unknown,House,3.0,1.0,1.0,180.0,,,Gauteng,0.0
-1300000.0,,Unknown,Apartment,2.0,1.0,1.0,78.0,,,Gauteng,0.0
-8500000.0,,Unknown,House,4.0,1.0,1.0,1420.0,,,Gauteng,0.0
-3450000.0,,Unknown,House,4.0,1.0,1.0,420.0,,,Gauteng,0.0
-1599000.0,,Unknown,Apartment,1.0,1.0,1.0,56.0,,,Gauteng,0.0
-1199000.0,,Unknown,Apartment,1.0,1.0,1.0,49.0,,,Gauteng,0.0
-1750000.0,,Unknown,Apartment,2.0,1.0,2.0,66.0,,,Gauteng,0.0
-2795000.0,,Unknown,House,3.0,2.0,2.0,116.0,,,Gauteng,0.0
-2115000.0,,Unknown,House,3.0,1.0,1.0,169.0,,,Gauteng,0.0
-1449000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-6080000.0,,Unknown,House,4.0,1.0,1.0,320.0,,,Gauteng,0.0
-3650000.0,,Unknown,House,3.0,2.0,2.0,117.0,,,Gauteng,0.0
-2400000.0,,Unknown,Townhouse,2.0,1.0,1.0,98.0,,,Gauteng,0.0
-1199000.0,,Unknown,Apartment,1.0,1.0,1.0,49.0,,,Gauteng,0.0
-3479000.0,,Chandos Rd Woodbridge Island,Townhouse,2.0,2.0,2.0,112.0,,,Gauteng,0.0
-5200000.0,,Unknown,Townhouse,2.0,1.5,2.0,105.0,,,Gauteng,0.0
-1600000.0,,Unknown,House,4.0,1.0,1.0,1041.0,,,Gauteng,0.0
-7430000.0,,Unknown,House,4.0,1.0,1.0,652.0,,,Gauteng,0.0
-3500000.0,,Unknown,House,3.0,1.0,1.0,238.0,,,Gauteng,0.0
-2450000.0,,Unknown,House,3.0,1.0,1.0,148.0,,,Gauteng,0.0
-3495000.0,,Unknown,Apartment,2.0,2.0,1.0,83.0,,,Gauteng,0.0
-980000.0,,Unknown,Apartment,1.0,1.0,1.0,47.0,,,Gauteng,0.0
-4995000.0,,Unknown,House,3.0,2.0,2.0,145.0,,,Gauteng,0.0
-13900000.0,,Unknown,House,4.0,1.0,1.0,2100.0,,,Gauteng,0.0
-4995000.0,,Unknown,House,3.0,2.0,2.0,145.0,,,Gauteng,0.0
-7000000.0,,Unknown,House,4.0,1.0,1.0,516.0,,,Gauteng,0.0
-2095000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-2250000.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-1680000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-1029900.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-1550000.0,,Unknown,Apartment,1.0,1.0,2.0,48.0,,,Gauteng,0.0
-3795000.0,,Unknown,Townhouse,2.0,2.0,2.0,103.0,,,Gauteng,0.0
-1499000.0,,Unknown,Apartment,1.0,1.0,1.0,56.0,,,Gauteng,0.0
-4500000.0,,Unknown,Apartment,2.0,2.0,2.0,88.0,,,Gauteng,0.0
-2400000.0,,Unknown,House,3.0,1.0,1.0,120.0,,,Gauteng,0.0
-2640000.0,,Unknown,House,3.0,1.0,1.0,132.0,,,Gauteng,0.0
-1950000.0,,Unknown,Townhouse,2.0,2.0,2.0,100.0,,,Gauteng,0.0
-1680000.0,,Unknown,Apartment,2.0,2.0,2.0,75.0,,,Gauteng,0.0
-3650000.0,,Unknown,Apartment,2.0,2.0,2.0,86.0,,,Gauteng,0.0
-1599000.0,,Unknown,Apartment,2.0,1.0,1.0,82.0,,,Gauteng,0.0
-2150000.0,,Unknown,Apartment,2.0,2.0,2.0,74.0,,,Gauteng,0.0
-879900.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-2450000.0,,Unknown,Townhouse,2.0,2.0,2.0,106.0,,,Gauteng,0.0
-989900.0,,Unknown,Apartment,1.0,1.0,1.0,49.0,,,Gauteng,0.0
-2475000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-5500000.0,,Unknown,House,3.0,3.0,2.0,116.0,,,Gauteng,0.0
-2550000.0,,Unknown,House,3.0,2.0,2.0,120.0,,,Gauteng,0.0
-3750000.0,,Unknown,Apartment,2.0,2.0,2.0,72.0,,,Gauteng,0.0
-879900.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-1495000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-2150000.0,,Unknown,Apartment,2.0,1.5,2.0,79.0,,,Gauteng,0.0
-6000000.0,,Unknown,House,3.0,2.0,2.0,135.0,,,Gauteng,0.0
-3200000.0,,Unknown,Townhouse,2.0,2.0,2.0,98.0,,,Gauteng,0.0
-2600000.0,,Unknown,Townhouse,2.0,2.0,6.0,111.0,,,Gauteng,0.0
-3885000.0,,Unknown,Townhouse,2.0,1.0,1.0,111.0,,,Gauteng,0.0
-1260000.0,,Unknown,Apartment,1.0,1.0,1.0,39.0,,,Gauteng,0.0
-1880000.0,,Unknown,Apartment,2.0,2.0,1.0,71.0,,,Gauteng,0.0
-4250000.0,,Unknown,Townhouse,2.0,2.0,1.0,104.0,,,Gauteng,0.0
-3500000.0,,Unknown,House,3.0,1.0,1.0,238.0,,,Gauteng,0.0
-6500000.0,,Unknown,House,3.0,2.0,2.0,163.0,,,Gauteng,0.0
-2200000.0,,Unknown,Apartment,2.0,2.0,1.0,68.0,,,Gauteng,0.0
-4250000.0,,Unknown,Townhouse,2.0,2.0,1.0,104.0,,,Gauteng,0.0
-2450000.0,,Unknown,Apartment,2.0,2.0,2.0,86.0,,,Gauteng,0.0
-2595000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-879900.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-1595000.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-1645000.0,,Unknown,Apartment,1.0,1.0,1.0,58.0,,,Gauteng,0.0
-1250000.0,,Unknown,Apartment,1.0,1.0,1.0,39.0,,,Gauteng,0.0
-1875000.0,,Unknown,Apartment,1.0,1.0,1.0,61.0,,,Gauteng,0.0
-2450000.0,,Unknown,Apartment,1.0,1.0,1.0,57.0,,,Gauteng,0.0
-4495000.0,,Unknown,House,3.0,1.5,2.0,131.0,,,Gauteng,0.0
-4750000.0,,Unknown,House,3.0,2.5,3.0,204.0,,,Gauteng,0.0
-1450000.0,,Unknown,Apartment,1.0,1.0,1.0,41.0,,,Gauteng,0.0
-1029900.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-10958500.0,,Unknown,House,4.0,1.0,1.0,3151.0,,,Gauteng,0.0
-6295000.0,,Unknown,House,3.0,2.5,2.0,173.0,,,Gauteng,0.0
-1295000.0,,Unknown,Apartment,2.0,1.0,1.0,65.0,,,Gauteng,0.0
-1680000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-1350000.0,,Unknown,Apartment,1.0,1.0,1.0,60.0,,,Gauteng,0.0
-1999000.0,,Unknown,Apartment,2.0,1.0,1.0,83.0,,,Gauteng,0.0
-3750000.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-1350000.0,,Unknown,House,3.0,2.0,4.0,213.0,,,Gauteng,0.0
-1069900.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-1725000.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-3950000.0,,Unknown,House,3.0,1.0,2.0,150.0,,,Gauteng,0.0
-989900.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-16000000.0,,Unknown,House,4.0,1.0,1.0,644.0,,,Gauteng,0.0
-3800000.0,,Unknown,House,3.0,1.0,1.0,190.0,,,Gauteng,0.0
-1000000.0,,Unknown,Apartment,2.0,1.0,2.0,67.0,,,Gauteng,0.0
-3750000.0,,Unknown,Townhouse,2.0,2.0,2.0,94.0,,,Gauteng,0.0
-4600000.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-1580000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-1125000.0,,Unknown,Apartment,2.0,1.0,1.0,67.0,,,Gauteng,0.0
-6900000.0,,Unknown,House,3.0,1.0,1.0,232.0,,,Gauteng,0.0
-1580000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-1250000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-1350000.0,,Unknown,Townhouse,2.0,1.0,1.0,96.0,,,Gauteng,0.0
-3299000.0,,Unknown,Apartment,2.0,2.0,2.0,87.0,,,Gauteng,0.0
-5995000.0,,Unknown,House,3.0,2.0,2.0,157.0,,,Gauteng,0.0
-4390000.0,,Unknown,Townhouse,2.0,2.0,2.0,90.0,,,Gauteng,0.0
-2850000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-3585000.0,,Unknown,House,3.0,1.0,1.0,140.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,1.0,1.0,1.0,41.0,,,Gauteng,0.0
-3099000.0,,Unknown,Apartment,2.0,2.0,2.0,72.0,,,Gauteng,0.0
-2395000.0,,Unknown,Apartment,2.0,2.0,1.0,73.0,,,Gauteng,0.0
-1029900.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-1820000.0,,Unknown,Apartment,2.0,2.0,2.0,77.0,,,Gauteng,0.0
-1295000.0,,Unknown,Apartment,1.0,1.0,1.0,39.0,,,Gauteng,0.0
-4200000.0,,Unknown,Apartment,2.0,2.0,1.0,75.0,,,Gauteng,0.0
-1642500.0,,Unknown,Apartment,2.0,1.0,1.0,73.0,,,Gauteng,0.0
-4200000.0,,Unknown,Townhouse,2.0,1.5,2.0,112.0,,,Gauteng,0.0
-6900000.0,,Unknown,House,3.0,1.0,1.0,232.0,,,Gauteng,0.0
-909900.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-6250000.0,,Unknown,Townhouse,2.0,2.0,2.0,108.0,,,Gauteng,0.0
-1600000.0,,Unknown,Apartment,2.0,2.0,2.0,74.0,,,Gauteng,0.0
-989900.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-1200000.0,,Unknown,Apartment,1.0,1.0,1.0,42.0,,,Gauteng,0.0
-1495000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-2050000.0,,Unknown,Townhouse,2.0,2.0,2.0,103.0,,,Gauteng,0.0
-1420000.0,,Unknown,Apartment,1.0,1.0,1.0,57.0,,,Gauteng,0.0
-2895000.0,,Unknown,Townhouse,2.0,2.0,1.0,98.0,,,Gauteng,0.0
-1069900.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-2980000.0,,Unknown,House,3.0,2.0,2.0,158.0,,,Gauteng,0.0
-3900000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-1490000.0,,Unknown,Apartment,1.0,1.0,1.0,63.0,,,Gauteng,0.0
-2350000.0,,Unknown,House,3.0,2.0,3.0,165.0,,,Gauteng,0.0
-1800000.0,,Unknown,Apartment,1.0,1.0,2.0,60.0,,,Gauteng,0.0
-1595000.0,,Unknown,Apartment,1.0,1.0,1.0,62.0,,,Gauteng,0.0
-1385000.0,,Unknown,Apartment,1.0,1.0,1.0,60.0,,,Gauteng,0.0
-1289999.0,,Unknown,Apartment,1.0,1.0,1.0,46.0,,,Gauteng,0.0
-1580000.0,,Unknown,Apartment,1.0,1.0,1.0,62.0,,,Gauteng,0.0
-1200000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-1899000.0,,Unknown,Townhouse,2.0,1.0,2.0,96.0,,,Gauteng,0.0
-1995000.0,,Unknown,Apartment,2.0,1.0,2.0,80.0,,,Gauteng,0.0
-2200000.0,,Unknown,Townhouse,2.0,2.0,2.0,102.0,,,Gauteng,0.0
-4370000.0,,Unknown,Apartment,2.0,2.0,2.0,82.0,,,Gauteng,0.0
-1295000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-2050000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-2690000.0,,Unknown,House,4.0,1.0,1.0,538.0,,,Gauteng,0.0
-1300000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-1580000.0,,Unknown,Apartment,1.0,1.0,1.0,62.0,,,Gauteng,0.0
-3800000.0,,Unknown,House,3.0,1.0,1.0,190.0,,,Gauteng,0.0
-4025000.0,,Unknown,Townhouse,2.0,2.0,2.0,98.0,,,Gauteng,0.0
-1995000.0,,Unknown,Apartment,2.0,1.0,2.0,70.0,,,Gauteng,0.0
-3950000.0,,Unknown,Apartment,2.0,2.0,2.0,72.0,,,Gauteng,0.0
-1050000.0,,Unknown,Apartment,1.0,1.0,1.0,31.0,,,Gauteng,0.0
-1850000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-3950000.0,,Unknown,Apartment,2.0,2.0,2.0,72.0,,,Gauteng,0.0
-1450000.0,,Unknown,Apartment,2.0,2.0,2.0,67.0,,,Gauteng,0.0
-3900000.0,,Unknown,Apartment,2.0,2.0,2.0,72.0,,,Gauteng,0.0
-1500000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-1750000.0,,Unknown,Apartment,2.0,1.0,2.0,79.0,,,Gauteng,0.0
-2250000.0,,Unknown,Apartment,1.0,1.0,1.0,49.0,,,Gauteng,0.0
-879900.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-1295000.0,,Unknown,Apartment,1.0,1.0,1.0,42.0,,,Gauteng,0.0
-879900.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-3250000.0,,Unknown,Apartment,1.0,1.0,1.0,61.0,,,Gauteng,0.0
-1495000.0,,Unknown,Apartment,1.0,1.0,1.0,47.0,,,Gauteng,0.0
-2250000.0,,Unknown,Apartment,1.0,1.0,1.0,49.0,,,Gauteng,0.0
-1995000.0,,Unknown,Apartment,2.0,1.0,2.0,77.0,,,Gauteng,0.0
-1395000.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-1395000.0,,Unknown,Apartment,1.0,1.0,1.0,39.0,,,Gauteng,0.0
-3850000.0,,Unknown,Townhouse,2.0,2.0,2.0,90.0,,,Gauteng,0.0
-899000.0,,Unknown,Apartment,1.0,1.0,1.0,52.0,,,Gauteng,0.0
-3749000.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-1695000.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-1200000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-1150000.0,,Unknown,Apartment,1.0,1.0,1.0,31.0,,,Gauteng,0.0
-1550000.0,,Unknown,Apartment,1.0,1.0,1.0,57.0,,,Gauteng,0.0
-1200000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-5600000.0,,Unknown,Townhouse,2.0,3.0,1.0,114.0,,,Gauteng,0.0
-2749000.0,,Unknown,Townhouse,2.0,2.5,1.0,111.0,,,Gauteng,0.0
-2450000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-1995000.0,,Unknown,Townhouse,2.0,2.0,2.0,92.0,,,Gauteng,0.0
-2050000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-6850000.0,,Unknown,House,3.0,1.0,1.0,191.0,,,Gauteng,0.0
-1293000.0,,Unknown,Apartment,1.0,1.5,1.0,58.0,,,Gauteng,0.0
-1650000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-1700000.0,,Unknown,Apartment,1.0,1.0,1.0,58.0,,,Gauteng,0.0
-4500000.0,,Unknown,House,4.0,1.0,1.0,300.0,,,Gauteng,0.0
-1850000.0,,Unknown,Apartment,1.0,1.0,1.0,29.0,,,Gauteng,0.0
-879900.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-1320000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-1029900.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-4395000.0,,Unknown,Townhouse,2.0,2.0,2.0,95.0,,,Gauteng,0.0
-1846000.0,,Unknown,Apartment,2.0,1.0,2.0,70.0,,,Gauteng,0.0
-4495000.0,,Unknown,Apartment,2.0,2.0,2.0,86.0,,,Gauteng,0.0
-11900000.0,,Unknown,House,3.0,3.0,2.0,247.0,,,Gauteng,0.0
-2195000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-4699000.0,,Unknown,House,4.0,3.0,4.0,350.0,,,Gauteng,0.0
-1385000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-3800000.0,,Unknown,House,3.0,1.0,1.0,207.0,,,Gauteng,0.0
-2350000.0,,Unknown,Apartment,1.0,1.0,1.0,56.0,,,Gauteng,0.0
-1846000.0,,Unknown,Apartment,2.0,1.0,2.0,70.0,,,Gauteng,0.0
-3950000.0,,Esplanade Rd,House,3.0,2.0,2.0,118.0,,,Gauteng,0.0
-1185000.0,,Unknown,Apartment,1.0,1.0,1.0,42.0,,,Gauteng,0.0
-3490000.0,,Unknown,House,3.0,2.0,2.0,117.0,,,Gauteng,0.0
-7900000.0,,Unknown,House,3.0,2.5,2.0,195.0,,,Gauteng,0.0
-5820000.0,,Unknown,Townhouse,2.0,3.0,2.0,108.0,,,Gauteng,0.0
-3450000.0,,Unknown,Townhouse,2.0,2.0,1.0,94.0,,,Gauteng,0.0
-2895000.0,,Unknown,House,3.0,2.0,1.0,145.0,,,Gauteng,0.0
-989900.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-975000.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-1850000.0,,Unknown,Apartment,1.0,1.0,1.0,29.0,,,Gauteng,0.0
-6950000.0,,Unknown,House,3.0,3.5,2.0,232.0,,,Gauteng,0.0
-909900.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,1.0,1.0,2.0,57.0,,,Gauteng,0.0
-3740000.0,,Unknown,Apartment,2.0,2.0,2.0,89.0,,,Gauteng,0.0
-2550000.0,,Unknown,House,3.0,2.0,2.0,120.0,,,Gauteng,0.0
-1800000.0,,Unknown,Apartment,2.0,2.0,2.0,72.0,,,Gauteng,0.0
-3999000.0,,Unknown,House,4.0,1.0,1.0,316.0,,,Gauteng,0.0
-1800000.0,,Unknown,Apartment,2.0,2.0,2.0,72.0,,,Gauteng,0.0
-2895000.0,,Unknown,Apartment,2.0,1.0,1.0,80.0,,,Gauteng,0.0
-1290000.0,,Unknown,Apartment,1.0,1.0,1.0,62.0,,,Gauteng,0.0
-9600000.0,,Unknown,House,3.0,3.5,3.0,206.0,,,Gauteng,0.0
-1499000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-3525900.0,,Unknown,House,3.0,1.0,1.0,219.0,,,Gauteng,0.0
-6950000.0,,Unknown,House,4.0,1.0,1.0,262.0,,,Gauteng,0.0
-9600000.0,,Unknown,House,4.0,1.0,1.0,2280.0,,,Gauteng,0.0
-4695000.0,,Unknown,House,3.0,2.0,2.0,170.0,,,Gauteng,0.0
-2750000.0,,Unknown,Apartment,2.0,1.0,2.0,85.0,,,Gauteng,0.0
-1250000.0,,Unknown,Apartment,1.0,1.0,1.0,40.0,,,Gauteng,0.0
-2999000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-3195000.0,,Unknown,Apartment,2.0,2.0,2.0,87.0,,,Gauteng,0.0
-1995000.0,,Unknown,Townhouse,2.0,2.0,1.0,90.0,,,Gauteng,0.0
-3400000.0,,Century Boulevard,Apartment,2.0,2.0,2.0,87.0,,,Gauteng,0.0
-1630000.0,,Unknown,Apartment,2.0,2.0,2.0,71.0,,,Gauteng,0.0
-2000000.0,,Unknown,Apartment,2.0,1.0,1.0,85.0,,,Gauteng,0.0
-1595000.0,,Unknown,Apartment,1.0,1.0,1.0,61.0,,,Gauteng,0.0
-6950000.0,,Unknown,House,3.0,3.5,2.0,232.0,,,Gauteng,0.0
-3600000.0,,Unknown,House,3.0,1.0,1.0,137.0,,,Gauteng,0.0
-5500000.0,,Unknown,House,3.0,2.0,2.0,128.0,,,Gauteng,0.0
-17000000.0,,Unknown,House,4.0,1.0,1.0,1729.0,,,Gauteng,0.0
-3600000.0,,Unknown,House,3.0,1.0,1.0,137.0,,,Gauteng,0.0
-599000.0,,Unknown,Apartment,2.0,1.0,1.0,65.0,,,Gauteng,0.0
-1299000.0,,Unknown,Townhouse,2.0,2.0,2.0,103.0,,,Gauteng,0.0
-550000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-2400000.0,,Unknown,House,4.0,1.0,1.0,297.0,,,Gauteng,0.0
-1550000.0,,Unknown,House,4.0,1.0,1.0,260.0,,,Gauteng,0.0
-1399000.0,,Unknown,Townhouse,2.0,2.0,2.0,112.0,,,Gauteng,0.0
-1350000.0,,Unknown,House,3.0,2.0,1.0,132.0,,,Gauteng,0.0
-7800000.0,,Unknown,House,4.0,1.0,1.0,790.0,,,Gauteng,0.0
-6182000.0,,Unknown,House,4.0,1.0,1.0,680.0,,,Gauteng,0.0
-4000000.0,,Unknown,House,4.0,1.0,1.0,835.0,,,Gauteng,0.0
-13700000.0,,Unknown,House,4.0,1.0,1.0,4100.0,,,Gauteng,0.0
-13700000.0,,Unknown,House,4.0,1.0,1.0,4100.0,,,Gauteng,0.0
-690000.0,,Unknown,House,3.0,3.0,1.0,115.0,,,Gauteng,0.0
-1599000.0,,Unknown,House,3.0,1.5,1.0,129.0,,,Gauteng,0.0
-1295000.0,,Unknown,Townhouse,2.0,2.0,2.0,108.0,,,Gauteng,0.0
-7800000.0,,Unknown,House,4.0,1.0,1.0,790.0,,,Gauteng,0.0
-3100000.0,,Unknown,House,4.0,2.0,2.0,328.0,,,Gauteng,0.0
-1650000.0,,Unknown,House,3.0,2.0,1.0,151.0,,,Gauteng,0.0
-948150.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-1650000.0,,Unknown,House,3.0,2.0,1.0,151.0,,,Gauteng,0.0
-1180000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-580000.0,,Unknown,Apartment,2.0,1.0,2.0,80.0,,,Gauteng,0.0
-3300000.0,,Unknown,House,4.0,1.0,1.0,425.0,,,Gauteng,0.0
-1250000.0,,Unknown,House,3.0,1.0,1.0,175.0,,,Gauteng,0.0
-575000.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-1750000.0,,Unknown,House,4.0,1.0,1.0,300.0,,,Gauteng,0.0
-980000.0,,Unknown,Townhouse,2.0,2.0,1.0,114.0,,,Gauteng,0.0
-2995000.0,,Unknown,House,4.0,1.0,1.0,750.0,,,Gauteng,0.0
-1100000.0,,Unknown,Townhouse,2.0,2.0,3.0,106.0,,,Gauteng,0.0
-1045000.0,,Unknown,Apartment,2.0,2.0,2.0,72.0,,,Gauteng,0.0
-1045000.0,,Unknown,Apartment,2.0,2.0,2.0,72.0,,,Gauteng,0.0
-460000.0,,Unknown,House,3.0,1.0,1.0,124.0,,,Gauteng,0.0
-2499000.0,,Unknown,House,4.0,1.0,1.0,433.0,,,Gauteng,0.0
-2200000.0,,Unknown,House,3.0,2.0,2.0,163.0,,,Gauteng,0.0
-999000.0,,Unknown,Apartment,1.0,2.0,1.0,61.0,,,Gauteng,0.0
-2295000.0,,Unknown,House,4.0,1.0,1.0,293.0,,,Gauteng,0.0
-770000.0,,Unknown,Townhouse,2.0,1.0,1.0,99.0,,,Gauteng,0.0
-580000.0,,Unknown,Apartment,2.0,1.0,1.0,67.0,,,Gauteng,0.0
-1260000.0,,Unknown,Apartment,2.0,2.0,1.0,72.0,,,Gauteng,0.0
-2050000.0,,Unknown,House,4.0,1.0,1.0,271.0,,,Gauteng,0.0
-1250000.0,,Unknown,Townhouse,2.0,2.0,1.0,93.0,,,Gauteng,0.0
-770000.0,,Unknown,Townhouse,2.0,1.0,1.0,99.0,,,Gauteng,0.0
-2400000.0,,Unknown,House,4.0,1.0,1.0,297.0,,,Gauteng,0.0
-799000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-3850000.0,,Unknown,House,4.0,1.0,1.0,400.0,,,Gauteng,0.0
-250000.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-6500000.0,,Unknown,House,4.0,1.0,1.0,681.0,,,Gauteng,0.0
-499000.0,,Unknown,House,3.0,1.0,1.0,116.0,,,Gauteng,0.0
-510000.0,,Unknown,House,3.0,1.0,1.0,121.0,,,Gauteng,0.0
-1399000.0,,Unknown,Townhouse,2.0,2.0,3.0,112.0,,,Gauteng,0.0
-2350000.0,,Unknown,Townhouse,2.0,1.0,2.0,106.0,,,Gauteng,0.0
-1800000.0,,Unknown,House,4.0,1.0,1.0,300.0,,,Gauteng,0.0
-449000.0,,Unknown,Apartment,1.0,1.0,1.0,40.0,,,Gauteng,0.0
-1800000.0,,Unknown,Apartment,2.0,2.0,2.0,83.0,,,Gauteng,0.0
-400000.0,,Unknown,Apartment,2.0,1.0,1.0,73.0,,,Gauteng,0.0
-839000.0,,Unknown,Apartment,2.0,1.5,1.0,83.0,,,Gauteng,0.0
-1025000.0,,Unknown,Apartment,2.0,2.0,1.0,89.0,,,Gauteng,0.0
-6500000.0,,Unknown,House,4.0,3.5,2.0,776.0,,,Gauteng,0.0
-6500000.0,,Unknown,House,4.0,3.5,2.0,776.0,,,Gauteng,0.0
-1150000.0,,Unknown,Apartment,2.0,2.0,2.0,74.0,,,Gauteng,0.0
-4000000.0,,Unknown,House,4.0,1.0,1.0,1526.0,,,Gauteng,0.0
-799000.0,,Unknown,Apartment,2.0,1.0,1.0,86.0,,,Gauteng,0.0
-630000.0,,Unknown,Apartment,2.0,1.0,1.0,89.0,,,Gauteng,0.0
-12000000.0,,Unknown,House,4.0,1.0,1.0,1400.0,,,Gauteng,0.0
-555000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-2486000.0,,Unknown,House,3.0,2.0,2.0,155.0,,,Gauteng,0.0
-570000.0,,Unknown,Townhouse,2.0,1.0,1.0,100.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-12000000.0,,Unknown,House,4.0,1.0,1.0,1400.0,,,Gauteng,0.0
-4200000.0,,Unknown,House,4.0,1.0,1.0,399.0,,,Gauteng,0.0
-4800000.0,,Unknown,House,4.0,1.0,1.0,392.0,,,Gauteng,0.0
-1100000.0,,Unknown,Townhouse,2.0,1.0,1.0,101.0,,,Gauteng,0.0
-4000000.0,,Unknown,House,4.0,1.0,1.0,835.0,,,Gauteng,0.0
-800000.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-1390000.0,,Unknown,Townhouse,2.0,1.0,3.0,99.0,,,Gauteng,0.0
-2950000.0,,Unknown,House,4.0,1.0,1.0,760.0,,,Gauteng,0.0
-3100000.0,,Unknown,House,4.0,2.5,3.0,306.0,,,Gauteng,0.0
-14000000.0,,Unknown,House,4.0,1.0,1.0,4200.0,,,Gauteng,0.0
-1099000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-825000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-699000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-2150000.0,,Unknown,House,3.0,2.0,2.0,132.0,,,Gauteng,0.0
-825000.0,,Unknown,Apartment,2.0,1.0,2.0,76.0,,,Gauteng,0.0
-2350000.0,,Unknown,House,4.0,4.0,3.0,325.0,,,Gauteng,0.0
-1349000.0,,Unknown,Townhouse,2.0,2.0,3.0,112.0,,,Gauteng,0.0
-1349000.0,,Unknown,Townhouse,2.0,2.0,3.0,112.0,,,Gauteng,0.0
-1380000.0,,Unknown,House,3.0,2.0,2.0,129.0,,,Gauteng,0.0
-645000.0,,Unknown,Apartment,2.0,1.0,2.0,79.0,,,Gauteng,0.0
-6480000.0,,Unknown,House,4.0,1.0,1.0,732.0,,,Gauteng,0.0
-1675000.0,,Unknown,House,3.0,2.0,2.0,168.0,,,Gauteng,0.0
-1100000.0,,Unknown,Townhouse,2.0,2.0,1.0,96.0,,,Gauteng,0.0
-930000.0,,Unknown,Apartment,1.0,2.0,1.0,52.0,,,Gauteng,0.0
-1049900.0,,Unknown,Apartment,1.0,1.0,1.0,37.0,,,Gauteng,0.0
-2199999.0,,Unknown,Apartment,2.0,2.0,1.0,78.0,,,Gauteng,0.0
-695000.0,,Unknown,Townhouse,2.0,1.0,1.0,99.0,,,Gauteng,0.0
-1049000.0,,Unknown,Apartment,2.0,1.0,2.0,80.0,,,Gauteng,0.0
-425000.0,,Unknown,Apartment,1.0,1.0,3.0,46.0,,,Gauteng,0.0
-1100000.0,,Unknown,Townhouse,2.0,2.0,1.0,96.0,,,Gauteng,0.0
-885000.0,,Unknown,Townhouse,2.0,1.5,2.0,109.0,,,Gauteng,0.0
-8000000.0,,Unknown,House,4.0,1.0,1.0,650.0,,,Gauteng,0.0
-675000.0,,Unknown,Apartment,1.0,1.0,1.0,37.0,,,Gauteng,0.0
-8000000.0,,Unknown,House,4.0,1.0,1.0,650.0,,,Gauteng,0.0
-770000.0,,Unknown,Townhouse,2.0,1.0,1.0,99.0,,,Gauteng,0.0
-990000.0,,Unknown,Townhouse,2.0,1.0,2.0,105.0,,,Gauteng,0.0
-908000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-520000.0,,Unknown,Apartment,1.0,1.0,1.0,58.0,,,Gauteng,0.0
-3499000.0,,Unknown,House,3.0,2.0,2.0,247.0,,,Gauteng,0.0
-575000.0,,Unknown,Apartment,1.0,1.0,1.0,38.0,,,Gauteng,0.0
-1180000.0,,Unknown,Townhouse,2.0,2.0,1.0,107.0,,,Gauteng,0.0
-10500000.0,,Unknown,House,4.0,1.0,1.0,302.0,,,Gauteng,0.0
-1425000.0,,Unknown,House,3.0,2.0,1.0,121.0,,,Gauteng,0.0
-10500000.0,,Unknown,House,4.0,40.0,1.0,4300.0,,,Gauteng,0.0
-780000.0,,Unknown,Apartment,2.0,1.0,2.0,68.0,,,Gauteng,0.0
-460000.0,,Unknown,House,3.0,1.0,1.0,124.0,,,Gauteng,0.0
-2899000.0,,Unknown,House,3.0,2.0,1.0,181.0,,,Gauteng,0.0
-1400000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-795000.0,,Unknown,Townhouse,2.0,1.0,2.0,91.0,,,Gauteng,0.0
-15700000.0,,Unknown,House,4.0,1.0,1.0,305.0,,,Gauteng,0.0
-1275000.0,,Unknown,House,3.0,3.0,2.0,122.0,,,Gauteng,0.0
-440000.0,,Unknown,Apartment,2.0,1.0,1.0,77.0,,,Gauteng,0.0
-380000.0,,Unknown,Apartment,2.0,1.0,1.0,83.0,,,Gauteng,0.0
-575000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-2200000.0,,Unknown,Apartment,2.0,1.0,2.0,75.0,,,Gauteng,0.0
-795000.0,,Unknown,Apartment,1.0,1.0,2.0,48.0,,,Gauteng,0.0
-1950000.0,,Unknown,House,3.0,2.0,2.0,152.0,,,Gauteng,0.0
-395000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-1499000.0,,Unknown,Townhouse,2.0,2.0,2.0,106.0,,,Gauteng,0.0
-515000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-739000.0,,Unknown,Apartment,1.0,1.0,1.0,42.0,,,Gauteng,0.0
-899000.0,,Unknown,House,3.0,2.0,1.0,157.0,,,Gauteng,0.0
-595000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-590000.0,,Unknown,Apartment,2.0,1.0,1.0,67.0,,,Gauteng,0.0
-345000.0,,Unknown,Apartment,1.0,1.0,1.0,39.0,,,Gauteng,0.0
-5850000.0,,Unknown,House,4.0,1.0,1.0,720.0,,,Gauteng,0.0
-620000.0,,Unknown,Apartment,1.0,1.0,1.0,48.0,,,Gauteng,0.0
-959000.0,,Unknown,Apartment,2.0,2.0,1.0,65.0,,,Gauteng,0.0
-699000.0,,Unknown,Apartment,1.0,1.0,1.0,42.0,,,Gauteng,0.0
-1299000.0,,Unknown,House,3.0,2.0,2.0,175.0,,,Gauteng,0.0
-1695000.0,,Unknown,House,3.0,2.0,2.0,149.0,,,Gauteng,0.0
-299000.0,,Unknown,Apartment,2.0,1.0,1.0,84.0,,,Gauteng,0.0
-899000.0,,Unknown,Townhouse,2.0,1.0,1.0,108.0,,,Gauteng,0.0
-869000.0,,Unknown,Apartment,1.0,1.0,1.0,56.0,,,Gauteng,0.0
-1250000.0,,Unknown,House,3.0,2.0,2.0,118.0,,,Gauteng,0.0
-695000.0,,Unknown,Apartment,1.0,1.0,2.0,60.0,,,Gauteng,0.0
-1395000.0,,Unknown,House,3.0,2.0,4.0,144.0,,,Gauteng,0.0
-1285000.0,,Unknown,House,3.0,2.0,2.0,125.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,1.0,1.0,85.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,1.0,1.0,76.0,,,Gauteng,0.0
-1500000.0,,Unknown,House,3.0,2.0,2.0,150.0,,,Gauteng,0.0
-999000.0,,Unknown,Apartment,2.0,2.0,1.0,65.0,,,Gauteng,0.0
-485000.0,,Unknown,Apartment,2.0,1.0,1.0,82.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-550000.0,,Unknown,Apartment,1.0,1.0,2.0,45.0,,,Gauteng,0.0
-550000.0,,Unknown,Apartment,1.0,1.0,2.0,45.0,,,Gauteng,0.0
-540000.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-12700000.0,,Unknown,House,4.0,1.0,1.0,1624.0,,,Gauteng,0.0
-689000.0,,Unknown,Apartment,2.0,1.0,1.0,70.0,,,Gauteng,0.0
-5450000.0,,Unknown,House,4.0,1.0,1.0,660.0,,,Gauteng,0.0
-6500000.0,,Unknown,House,4.0,1.0,1.0,898.0,,,Gauteng,0.0
-1700000.0,,Unknown,Townhouse,2.0,1.0,1.0,92.0,,,Gauteng,0.0
-1470000.0,,Unknown,House,4.0,1.0,1.0,383.0,,,Gauteng,0.0
-7245000.0,,Unknown,House,4.0,1.0,1.0,770.0,,,Gauteng,0.0
-1190000.0,,Unknown,House,3.0,3.0,2.0,139.0,,,Gauteng,0.0
-690000.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-530000.0,,Unknown,Townhouse,2.0,2.0,1.0,98.0,,,Gauteng,0.0
-6345000.0,,Unknown,House,4.0,1.0,1.0,395.0,,,Gauteng,0.0
-1270000.0,,Unknown,House,3.0,3.0,1.0,143.0,,,Gauteng,0.0
-860000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-1200000.0,,Unknown,House,3.0,2.0,3.0,176.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,1.0,114.0,,,Gauteng,0.0
-5400000.0,,Unknown,House,4.0,1.0,1.0,1500.0,,,Gauteng,0.0
-625000.0,,Unknown,Apartment,2.0,1.0,2.0,70.0,,,Gauteng,0.0
-445000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-2480000.0,,Unknown,House,3.0,1.0,1.0,170.0,,,Gauteng,0.0
-680000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-1499000.0,,Unknown,House,3.0,2.0,2.0,165.0,,,Gauteng,0.0
-680000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-623500.0,,Unknown,Apartment,2.0,1.0,1.0,72.0,,,Gauteng,0.0
-8500000.0,,Unknown,House,4.0,1.0,1.0,2080.0,,,Gauteng,0.0
-1590000.0,,Unknown,House,3.0,2.0,6.0,140.0,,,Gauteng,0.0
-1399000.0,,Unknown,House,3.0,3.0,2.0,140.0,,,Gauteng,0.0
-3450000.0,,Unknown,House,4.0,1.0,1.0,422.0,,,Gauteng,0.0
-2130000.0,,Unknown,House,4.0,1.0,1.0,415.0,,,Gauteng,0.0
-1999000.0,,Unknown,House,3.0,2.0,5.0,205.0,,,Gauteng,0.0
-13700000.0,,Unknown,House,3.0,1.0,1.0,183.0,,,Gauteng,0.0
-12500000.0,,Unknown,House,4.0,24.0,30.0,1660.0,,,Gauteng,0.0
-540000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-1765000.0,,Unknown,House,3.0,2.0,3.0,225.0,,,Gauteng,0.0
-840000.0,,Unknown,Townhouse,2.0,1.0,2.0,91.0,,,Gauteng,0.0
-900000.0,,Unknown,Townhouse,2.0,2.0,1.0,110.0,,,Gauteng,0.0
-1300000.0,,Unknown,House,4.0,2.0,2.0,497.0,,,Gauteng,0.0
-850000.0,,Unknown,Townhouse,2.0,1.0,2.0,91.0,,,Gauteng,0.0
-1190000.0,,Unknown,Apartment,2.0,2.0,2.0,87.0,,,Gauteng,0.0
-1100000.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-1190000.0,,Unknown,Apartment,2.0,2.0,2.0,87.0,,,Gauteng,0.0
-920000.0,,Unknown,House,4.0,1.0,1.0,258.0,,,Gauteng,0.0
-920000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-420000.0,,Unknown,Apartment,1.0,1.0,3.0,58.0,,,Gauteng,0.0
-570000.0,,Unknown,Apartment,2.0,1.0,1.0,80.0,,,Gauteng,0.0
-1175000.0,,Unknown,Apartment,2.0,2.0,1.0,83.0,,,Gauteng,0.0
-1320000.0,,Unknown,House,3.0,2.0,4.0,142.0,,,Gauteng,0.0
-799000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-820000.0,,Unknown,House,3.0,2.0,1.0,152.0,,,Gauteng,0.0
-490500.0,,Unknown,Apartment,1.0,1.0,1.0,58.0,,,Gauteng,0.0
-370000.0,,Unknown,House,4.0,1.0,1.0,565.0,,,Gauteng,0.0
-1360000.0,,Unknown,Townhouse,2.0,2.0,1.0,93.0,,,Gauteng,0.0
-870000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-1160000.0,,Unknown,House,3.0,2.0,1.0,160.0,,,Gauteng,0.0
-1500000.0,,Unknown,Townhouse,2.0,2.0,1.0,92.0,,,Gauteng,0.0
-1329000.0,,Unknown,Townhouse,2.0,2.0,1.0,93.0,,,Gauteng,0.0
-1175000.0,,Unknown,Apartment,2.0,2.0,1.0,83.0,,,Gauteng,0.0
-1525000.0,,Unknown,House,3.0,2.0,2.0,129.0,,,Gauteng,0.0
-849000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-4500000.0,,Unknown,House,4.0,1.0,1.0,587.0,,,Gauteng,0.0
-1450000.0,,Unknown,House,4.0,6.0,3.0,495.0,,,Gauteng,0.0
-1200000.0,,Unknown,Townhouse,2.0,1.0,3.0,106.0,,,Gauteng,0.0
-990000.0,,Unknown,Apartment,1.0,1.0,1.0,64.0,,,Gauteng,0.0
-1670000.0,,Unknown,House,4.0,1.0,1.0,1450.0,,,Gauteng,0.0
-600000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-950000.0,,Unknown,House,3.0,1.0,1.0,120.0,,,Gauteng,0.0
-600000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-620000.0,,Unknown,Townhouse,2.0,1.5,2.0,94.0,,,Gauteng,0.0
-4350000.0,,Unknown,House,4.0,1.0,1.0,1100.0,,,Gauteng,0.0
-1090000.0,,Unknown,House,4.0,2.0,2.0,445.0,,,Gauteng,0.0
-740000.0,,Unknown,Apartment,2.0,1.0,2.0,74.0,,,Gauteng,0.0
-500000.0,,Unknown,Apartment,1.0,1.0,1.0,54.0,,,Gauteng,0.0
-470000.0,,Unknown,Apartment,1.0,1.0,1.0,58.0,,,Gauteng,0.0
-1090000.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-2300000.0,,Unknown,House,3.0,2.0,1.0,159.0,,,Gauteng,0.0
-3950000.0,,Unknown,House,4.0,1.0,1.0,1100.0,,,Gauteng,0.0
-400000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-520000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-570000.0,,Unknown,Apartment,2.0,1.0,1.0,72.0,,,Gauteng,0.0
-21000000.0,,Unknown,House,4.0,1.0,1.0,618.0,,,Gauteng,0.0
-4500000.0,,Unknown,House,4.0,1.0,1.0,1481.0,,,Gauteng,0.0
-869000.0,,Unknown,House,3.0,2.0,1.0,125.0,,,Gauteng,0.0
-680000.0,,Unknown,House,3.0,1.0,2.0,127.0,,,Gauteng,0.0
-2060000.0,,Unknown,House,4.0,1.0,1.0,500.0,,,Gauteng,0.0
-700000.0,,Unknown,Apartment,2.0,2.0,1.0,80.0,,,Gauteng,0.0
-2050000.0,,Unknown,House,4.0,1.0,1.0,500.0,,,Gauteng,0.0
-1250000.0,,Unknown,House,3.0,2.0,3.0,143.0,,,Gauteng,0.0
-5350000.0,,Unknown,House,4.0,1.0,1.0,415.0,,,Gauteng,0.0
-850000.0,,Unknown,House,3.0,1.0,2.0,126.0,,,Gauteng,0.0
-5294450.0,,Unknown,House,4.0,3.0,4.0,2855.0,,,Gauteng,0.0
-699000.0,,Unknown,Townhouse,2.0,1.5,1.0,99.0,,,Gauteng,0.0
-900000.0,,Unknown,House,3.0,2.0,1.0,128.0,,,Gauteng,0.0
-6900000.0,,Unknown,House,4.0,1.0,1.0,1730.0,,,Gauteng,0.0
-5900000.0,,Unknown,House,4.0,1.0,1.0,585.0,,,Gauteng,0.0
-14000000.0,,Unknown,House,4.0,1.0,1.0,2200.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,2.0,2.0,1.0,79.0,,,Gauteng,0.0
-2570000.0,,Unknown,House,4.0,1.0,1.0,415.0,,,Gauteng,0.0
-2700000.0,,Unknown,House,3.0,1.0,1.0,147.0,,,Gauteng,0.0
-21500000.0,,Unknown,House,4.0,1.0,1.0,1809.0,,,Gauteng,0.0
-3780000.0,,Unknown,House,4.0,1.0,1.0,600.0,,,Gauteng,0.0
-3780000.0,,Unknown,House,4.0,1.0,1.0,600.0,,,Gauteng,0.0
-16100000.0,,Unknown,House,4.0,1.0,1.0,1809.0,,,Gauteng,0.0
-4865000.0,,Unknown,House,4.0,1.0,1.0,1428.0,,,Gauteng,0.0
-2450000.0,,Unknown,House,4.0,1.0,1.0,486.0,,,Gauteng,0.0
-5080000.0,,Unknown,House,4.0,1.0,1.0,1770.0,,,Gauteng,0.0
-5080000.0,,Unknown,House,4.0,1.0,1.0,1770.0,,,Gauteng,0.0
-4350000.0,,Unknown,House,4.0,1.0,1.0,405.0,,,Gauteng,0.0
-2380000.0,,Unknown,House,3.0,1.0,1.0,200.0,,,Gauteng,0.0
-880000.0,,Unknown,House,3.0,1.0,2.0,120.0,,,Gauteng,0.0
-950000.0,,Unknown,House,3.0,2.0,2.0,130.0,,,Gauteng,0.0
-4200000.0,,Unknown,Apartment,2.0,1.0,1.0,80.0,,,Gauteng,0.0
-6500000.0,,Unknown,House,4.0,1.0,1.0,608.0,,,Gauteng,0.0
-9000000.0,,Unknown,House,4.0,1.0,1.0,2680.0,,,Gauteng,0.0
-450000.0,,Unknown,Apartment,1.0,1.0,2.0,47.0,,,Gauteng,0.0
-1790000.0,,Unknown,House,3.0,2.0,2.0,221.0,,,Gauteng,0.0
-16000000.0,,Unknown,House,4.0,1.0,1.0,1980.0,,,Gauteng,0.0
-4200000.0,,Unknown,House,4.0,1.0,1.0,3542.0,,,Gauteng,0.0
-7700000.0,,Unknown,House,4.0,1.0,1.0,500.0,,,Gauteng,0.0
-770000.0,,Unknown,Apartment,2.0,1.5,1.0,78.0,,,Gauteng,0.0
-480000.0,,Unknown,Apartment,1.0,1.0,2.0,47.0,,,Gauteng,0.0
-1800000.0,,Unknown,House,4.0,1.0,1.0,570.0,,,Gauteng,0.0
-1249990.0,,Unknown,House,3.0,2.0,1.0,132.0,,,Gauteng,0.0
-549990.0,,Unknown,Apartment,1.0,1.0,2.0,54.0,,,Gauteng,0.0
-1249990.0,,Unknown,House,3.0,2.0,1.0,132.0,,,Gauteng,0.0
-495000.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-884000.0,,Unknown,House,3.0,2.0,2.0,150.0,,,Gauteng,0.0
-884000.0,,Unknown,House,3.0,1.5,2.0,148.0,,,Gauteng,0.0
-1600000.0,,Unknown,House,4.0,1.0,1.0,525.0,,,Gauteng,0.0
-699000.0,,Unknown,Apartment,2.0,2.0,2.0,76.0,,,Gauteng,0.0
-1500000.0,,Unknown,House,4.0,1.0,1.0,380.0,,,Gauteng,0.0
-1600000.0,,Unknown,House,4.0,1.0,1.0,545.0,,,Gauteng,0.0
-4500000.0,,Unknown,House,4.0,1.0,1.0,570.0,,,Gauteng,0.0
-2650000.0,,Unknown,House,4.0,1.0,1.0,1354.0,,,Gauteng,0.0
-865000.0,,Unknown,Apartment,1.0,2.0,1.0,56.0,,,Gauteng,0.0
-634000.0,,Unknown,House,4.0,1.0,1.0,1640.0,,,Gauteng,0.0
-865000.0,,Unknown,House,4.0,1.0,1.0,903.0,,,Gauteng,0.0
-770000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-2790000.0,,Unknown,House,3.0,1.0,1.0,218.0,,,Gauteng,0.0
-2120000.0,,Unknown,House,3.0,1.0,1.0,160.0,,,Gauteng,0.0
-3476500.0,,Unknown,House,3.0,2.0,3.0,204.0,,,Gauteng,0.0
-2445000.0,,Unknown,House,3.0,2.0,6.0,179.0,,,Gauteng,0.0
-2400000.0,,Unknown,House,3.0,1.0,1.0,121.0,,,Gauteng,0.0
-2445000.0,,Unknown,House,3.0,2.0,6.0,179.0,,,Gauteng,0.0
-788000.0,,Unknown,Apartment,1.0,1.0,1.0,63.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.0,4.0,140.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.0,4.0,140.0,,,Gauteng,0.0
-860000.0,,Unknown,Apartment,1.0,1.0,2.0,61.0,,,Gauteng,0.0
-1398000.0,,Unknown,House,3.0,2.0,2.0,186.0,,,Gauteng,0.0
-860000.0,,Unknown,Townhouse,2.0,2.0,1.0,95.0,,,Gauteng,0.0
-1350000.0,,Unknown,House,3.0,2.0,2.0,131.0,,,Gauteng,0.0
-790000.0,,Unknown,Townhouse,2.0,2.0,3.0,103.0,,,Gauteng,0.0
-1350000.0,,Unknown,House,3.0,2.0,2.0,131.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,1.0,5.0,68.0,,,Gauteng,0.0
-740000.0,,Unknown,Apartment,2.0,1.0,2.0,87.0,,,Gauteng,0.0
-4800000.0,,Unknown,House,4.0,1.0,1.0,800.0,,,Gauteng,0.0
-11900000.0,,Unknown,House,4.0,17.0,34.0,980.0,,,Gauteng,0.0
-17200000.0,,Unknown,House,4.0,1.0,1.0,1760.0,,,Gauteng,0.0
-8995000.0,,Unknown,House,4.0,1.0,1.0,1222.0,,,Gauteng,0.0
-752500.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.0,2.0,140.0,,,Gauteng,0.0
-1910000.0,,Unknown,House,3.0,1.0,1.0,150.0,,,Gauteng,0.0
-890000.0,,Unknown,Apartment,2.0,1.0,2.0,80.0,,,Gauteng,0.0
-1290000.0,,Unknown,Townhouse,2.0,2.0,3.0,106.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,1.0,1.0,60.0,,,Gauteng,0.0
-890000.0,,Unknown,Apartment,2.0,1.0,2.0,80.0,,,Gauteng,0.0
-780000.0,,Unknown,Apartment,2.0,2.0,2.0,88.0,,,Gauteng,0.0
-1690000.0,,Unknown,House,3.0,2.0,2.0,181.0,,,Gauteng,0.0
-3999000.0,,Unknown,House,4.0,1.0,1.0,573.0,,,Gauteng,0.0
-1190000.0,,Unknown,House,3.0,2.0,14.0,215.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.0,4.0,140.0,,,Gauteng,0.0
-1100000.0,,Unknown,Townhouse,2.0,2.0,6.0,111.0,,,Gauteng,0.0
-998000.0,,Unknown,Townhouse,2.0,2.0,5.0,93.0,,,Gauteng,0.0
-380000.0,,Unknown,Apartment,1.0,1.0,1.0,37.0,,,Gauteng,0.0
-2200000.0,,Unknown,House,3.0,2.0,4.0,179.0,,,Gauteng,0.0
-1900000.0,,Unknown,House,4.0,2.0,2.0,405.0,,,Gauteng,0.0
-1980000.0,,Unknown,House,3.0,2.0,6.0,168.0,,,Gauteng,0.0
-740000.0,,Unknown,Apartment,2.0,2.0,2.0,73.0,,,Gauteng,0.0
-8150000.0,,Unknown,House,4.0,1.0,1.0,800.0,,,Gauteng,0.0
-1350000.0,,Unknown,House,3.0,2.0,2.0,131.0,,,Gauteng,0.0
-980000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-600000.0,,Unknown,Apartment,2.0,1.0,1.0,86.0,,,Gauteng,0.0
-2800000.0,,Unknown,House,4.0,1.0,1.0,428.0,,,Gauteng,0.0
-1740000.0,,Unknown,House,3.0,2.0,4.0,207.0,,,Gauteng,0.0
-1170000.0,,Unknown,Townhouse,2.0,2.0,3.0,105.0,,,Gauteng,0.0
-600000.0,,Unknown,Apartment,2.0,1.0,1.0,86.0,,,Gauteng,0.0
-2850000.0,,Unknown,House,3.0,2.0,2.0,136.0,,,Gauteng,0.0
-3238750.0,,Unknown,House,4.0,1.0,1.0,472.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.0,4.0,140.0,,,Gauteng,0.0
-915000.0,,Unknown,House,3.0,1.0,2.0,135.0,,,Gauteng,0.0
-1300000.0,,Unknown,House,3.0,2.0,4.0,126.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.0,4.0,140.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,1.0,1.0,1.0,50.0,,,Gauteng,0.0
-1950000.0,,Unknown,House,3.0,5.0,6.0,218.0,,,Gauteng,0.0
-1180000.0,,Unknown,Townhouse,2.0,2.0,1.0,104.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.0,4.0,140.0,,,Gauteng,0.0
-590000.0,,Unknown,Apartment,2.0,1.0,11.0,82.0,,,Gauteng,0.0
-1080000.0,,Unknown,Townhouse,2.0,2.0,2.0,98.0,,,Gauteng,0.0
-1096000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,2.0,1.0,67.0,,,Gauteng,0.0
-1599000.0,,Unknown,House,3.0,3.0,4.0,161.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,1.0,1.0,87.0,,,Gauteng,0.0
-700000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-390000.0,,Unknown,Apartment,1.0,1.0,1.0,31.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,2.0,2.0,71.0,,,Gauteng,0.0
-600000.0,,Unknown,Apartment,1.0,1.0,2.0,64.0,,,Gauteng,0.0
-995000.0,,Unknown,Townhouse,2.0,2.0,1.0,90.0,,,Gauteng,0.0
-1075000.0,,Unknown,Apartment,2.0,1.0,2.0,80.0,,,Gauteng,0.0
-1950000.0,,Unknown,House,3.0,2.0,4.0,159.0,,,Gauteng,0.0
-1430000.0,,Unknown,Townhouse,2.0,1.0,1.0,107.0,,,Gauteng,0.0
-770000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-890000.0,,Unknown,Apartment,2.0,1.0,2.0,80.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.0,3.0,140.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.0,3.0,140.0,,,Gauteng,0.0
-530000.0,,Unknown,Apartment,1.0,1.0,2.0,44.0,,,Gauteng,0.0
-1890000.0,,Unknown,House,3.0,2.0,4.0,159.0,,,Gauteng,0.0
-750000.0,,Unknown,Townhouse,2.0,2.0,1.0,96.0,,,Gauteng,0.0
-949000.0,,Unknown,Apartment,2.0,2.0,2.0,67.0,,,Gauteng,0.0
-1170000.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-1170000.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-560000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-1300000.0,,Unknown,House,3.0,2.0,4.0,126.0,,,Gauteng,0.0
-550000.0,,Unknown,Apartment,1.0,1.0,1.0,56.0,,,Gauteng,0.0
-1300000.0,,Unknown,House,3.0,2.0,6.0,115.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,2.0,2.0,67.0,,,Gauteng,0.0
-765000.0,,Unknown,Apartment,1.0,1.0,8.0,60.0,,,Gauteng,0.0
-1300000.0,,Unknown,House,3.0,2.0,2.0,149.0,,,Gauteng,0.0
-2599000.0,,Unknown,House,4.0,2.0,6.0,414.0,,,Gauteng,0.0
-3750000.0,,Unknown,House,4.0,1.0,1.0,354.0,,,Gauteng,0.0
-730000.0,,Unknown,Townhouse,2.0,2.0,1.0,96.0,,,Gauteng,0.0
-580000.0,,Unknown,Apartment,1.0,1.0,2.0,64.0,,,Gauteng,0.0
-1380000.0,,Unknown,House,3.0,2.0,3.0,118.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.5,2.0,140.0,,,Gauteng,0.0
-1460000.0,,Unknown,House,3.0,2.5,2.0,140.0,,,Gauteng,0.0
-800000.0,,Unknown,Apartment,2.0,2.0,1.0,87.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,2.0,2.0,3.0,68.0,,,Gauteng,0.0
-1397175.0,,Unknown,House,3.0,2.0,1.0,131.0,,,Gauteng,0.0
-270000.0,,Unknown,Apartment,1.0,1.0,2.0,58.0,,,Gauteng,0.0
-4400000.0,,Unknown,House,4.0,1.0,9.0,632.0,,,Gauteng,0.0
-1400000.0,,Unknown,Apartment,2.0,1.0,1.0,83.0,,,Gauteng,0.0
-3000000.0,,Unknown,House,4.0,1.0,1.0,495.0,,,Gauteng,0.0
-550000.0,,Unknown,House,4.0,1.0,1.0,1490.0,,,Gauteng,0.0
-550000.0,,Unknown,House,4.0,1.0,1.0,1490.0,,,Gauteng,0.0
-1625000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-824000.0,,Unknown,Apartment,2.0,1.0,1.0,73.0,,,Gauteng,0.0
-470000.0,,Unknown,Apartment,1.0,1.0,1.0,33.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,1.0,2.0,75.0,,,Gauteng,0.0
-870000.0,,Unknown,Apartment,2.0,2.0,2.0,71.0,,,Gauteng,0.0
-835000.0,,Unknown,Apartment,2.0,1.0,1.0,65.0,,,Gauteng,0.0
-2149900.0,,Unknown,House,3.0,2.5,2.0,158.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,2.0,1.0,64.0,,,Gauteng,0.0
-12500000.0,,Unknown,House,4.0,1.0,1.0,2000.0,,,Gauteng,0.0
-2149900.0,,Unknown,House,3.0,2.5,2.0,158.0,,,Gauteng,0.0
-550000.0,,Unknown,Apartment,1.0,1.0,1.0,40.0,,,Gauteng,0.0
-999000.0,,Unknown,Apartment,2.0,2.0,2.0,80.0,,,Gauteng,0.0
-699000.0,,Unknown,Apartment,2.0,1.0,1.0,67.0,,,Gauteng,0.0
-6900000.0,,Unknown,House,4.0,1.0,1.0,1658.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,1.0,2.0,71.0,,,Gauteng,0.0
-1400000.0,,Unknown,Townhouse,2.0,2.0,2.0,97.0,,,Gauteng,0.0
-1299900.0,,Unknown,Townhouse,2.0,2.0,2.0,109.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,2.0,94.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,2.0,94.0,,,Gauteng,0.0
-800000.0,,Unknown,Apartment,2.0,2.0,1.0,79.0,,,Gauteng,0.0
-829900.0,,"Founders Hill Crescent, Antwerp Rd, Founders Hill, Lethabong",Apartment,1.0,1.0,1.0,52.0,,,Gauteng,0.0
-1399900.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-699000.0,,Unknown,Apartment,2.0,1.0,1.0,67.0,,,Gauteng,0.0
-800000.0,,Unknown,Apartment,2.0,2.0,1.0,79.0,,,Gauteng,0.0
-550000.0,,Unknown,Apartment,1.0,1.0,2.0,40.0,,,Gauteng,0.0
-1099000.0,,Unknown,Apartment,2.0,2.0,3.0,78.0,,,Gauteng,0.0
-1620000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-920000.0,,Unknown,Apartment,2.0,2.0,2.0,71.0,,,Gauteng,0.0
-1650000.0,,Unknown,Townhouse,2.0,2.0,3.0,104.0,,,Gauteng,0.0
-995000.0,,Unknown,Townhouse,2.0,2.0,2.0,95.0,,,Gauteng,0.0
-790000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-540000.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-565000.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-925000.0,,Unknown,Apartment,2.0,1.0,2.0,70.0,,,Gauteng,0.0
-945000.0,,Unknown,Townhouse,2.0,2.0,1.0,95.0,,,Gauteng,0.0
-1425000.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-540000.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-549999.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-450000.0,,Unknown,Apartment,2.0,1.0,1.0,85.0,,,Gauteng,0.0
-1395000.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-1680000.0,,Unknown,House,3.0,2.0,2.0,130.0,,,Gauteng,0.0
-1299000.0,,Unknown,Townhouse,2.0,2.0,2.0,101.0,,,Gauteng,0.0
-520000.0,,Unknown,Apartment,1.0,1.0,2.0,35.0,,,Gauteng,0.0
-1795000.0,,Unknown,House,3.0,2.5,2.0,148.0,,,Gauteng,0.0
-1620000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,1.0,114.0,,,Gauteng,0.0
-790000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-899000.0,,Unknown,Apartment,2.0,2.0,1.0,87.0,,,Gauteng,0.0
-820000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-1620000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-930000.0,,Unknown,Apartment,2.0,2.0,2.0,82.0,,,Gauteng,0.0
-1425000.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-1699900.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-780000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-749000.0,,Unknown,Apartment,2.0,1.0,2.0,68.0,,,Gauteng,0.0
-1580000.0,,Unknown,House,3.0,2.5,2.0,154.0,,,Gauteng,0.0
-1050000.0,,Unknown,Townhouse,2.0,2.0,1.0,96.0,,,Gauteng,0.0
-1595000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-780000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-1050000.0,,Unknown,Apartment,2.0,2.0,1.0,77.0,,,Gauteng,0.0
-550000.0,,Unknown,Apartment,1.0,1.0,1.0,50.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-780000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-995000.0,,Unknown,Townhouse,2.0,2.0,2.0,93.0,,,Gauteng,0.0
-824000.0,,Unknown,Apartment,2.0,1.0,1.0,73.0,,,Gauteng,0.0
-925000.0,,Unknown,Apartment,2.0,1.0,1.0,70.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,1.0,2.0,71.0,,,Gauteng,0.0
-765000.0,,Unknown,Apartment,1.0,1.0,1.0,51.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,2.0,98.0,,,Gauteng,0.0
-1249900.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-820000.0,,Unknown,Apartment,1.0,1.0,1.0,57.0,,,Gauteng,0.0
-970000.0,,Unknown,Apartment,2.0,1.0,2.0,74.0,,,Gauteng,0.0
-1100000.0,,Unknown,Apartment,2.0,1.0,1.0,86.0,,,Gauteng,0.0
-1150000.0,,Unknown,Apartment,2.0,2.0,1.0,73.0,,,Gauteng,0.0
-1350000.0,,Unknown,House,3.0,2.0,2.0,126.0,,,Gauteng,0.0
-1100000.0,,Unknown,Apartment,2.0,2.0,1.0,87.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,1.0,1.0,88.0,,,Gauteng,0.0
-525000.0,,Unknown,Apartment,1.0,1.0,1.0,50.0,,,Gauteng,0.0
-969900.0,,Unknown,Apartment,2.0,1.0,2.0,71.0,,,Gauteng,0.0
-820000.0,,Unknown,Apartment,1.0,1.0,2.0,59.0,,,Gauteng,0.0
-1300000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-930000.0,,Unknown,Townhouse,2.0,2.0,2.0,93.0,,,Gauteng,0.0
-1300000.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-2600000.0,,Unknown,House,4.0,1.0,1.0,280.0,,,Gauteng,0.0
-1099000.0,,Unknown,Townhouse,2.0,2.0,2.0,109.0,,,Gauteng,0.0
-1099000.0,,Unknown,Townhouse,2.0,2.5,3.0,109.0,,,Gauteng,0.0
-770000.0,,Unknown,Apartment,2.0,1.0,1.0,88.0,,,Gauteng,0.0
-550000.0,,Unknown,Apartment,1.0,1.0,1.0,40.0,,,Gauteng,0.0
-1300000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-525000.0,,Unknown,Apartment,1.0,1.0,1.0,50.0,,,Gauteng,0.0
-1600000.0,,Unknown,Townhouse,2.0,2.0,1.0,94.0,,,Gauteng,0.0
-1495000.0,,Unknown,Townhouse,2.0,2.0,2.0,103.0,,,Gauteng,0.0
-1249900.0,,Unknown,Townhouse,2.0,2.0,2.0,101.0,,,Gauteng,0.0
-1300000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-849000.0,,Unknown,Apartment,2.0,1.0,1.0,73.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,2.0,1.0,89.0,,,Gauteng,0.0
-930000.0,,Unknown,Townhouse,2.0,2.0,2.0,93.0,,,Gauteng,0.0
-1550000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-780000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-1099000.0,,Unknown,Townhouse,2.0,2.0,2.0,109.0,,,Gauteng,0.0
-945000.0,,Unknown,Townhouse,2.0,2.0,1.0,95.0,,,Gauteng,0.0
-1400000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-1500000.0,,Unknown,Apartment,2.0,2.0,4.0,86.0,,,Gauteng,0.0
-1099000.0,,Unknown,Apartment,2.0,2.0,2.0,78.0,,,Gauteng,0.0
-1050000.0,,Unknown,Apartment,1.0,1.0,1.0,61.0,,,Gauteng,0.0
-1299999.0,,Unknown,Townhouse,2.0,2.0,2.0,93.0,,,Gauteng,0.0
-830000.0,,Unknown,Townhouse,2.0,2.0,2.0,111.0,,,Gauteng,0.0
-470000.0,,Unknown,Apartment,1.0,1.0,1.0,33.0,,,Gauteng,0.0
-1050000.0,,Unknown,Townhouse,2.0,2.0,1.0,96.0,,,Gauteng,0.0
-540000.0,,Unknown,Apartment,1.0,1.0,1.0,53.0,,,Gauteng,0.0
-900000.0,,Unknown,Apartment,2.0,2.0,1.0,70.0,,,Gauteng,0.0
-999000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-795000.0,,Unknown,Apartment,2.0,1.0,1.0,75.0,,,Gauteng,0.0
-1680000.0,,Unknown,House,3.0,2.5,2.0,130.0,,,Gauteng,0.0
-995000.0,,Unknown,Apartment,2.0,1.0,1.0,65.0,,,Gauteng,0.0
-1790000.0,,Unknown,House,3.0,2.5,2.0,148.0,,,Gauteng,0.0
-640000.0,,Unknown,Apartment,1.0,1.0,1.0,50.0,,,Gauteng,0.0
-480000.0,,Unknown,Apartment,1.0,1.0,1.0,50.0,,,Gauteng,0.0
-1650000.0,,Unknown,Townhouse,2.0,2.0,3.0,108.0,,,Gauteng,0.0
-1625000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-1659900.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-1300000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-770000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-1625000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-720000.0,,Unknown,Apartment,1.0,1.0,1.0,47.0,,,Gauteng,0.0
-2500000.0,,Unknown,House,4.0,1.0,1.0,250.0,,,Gauteng,0.0
-720000.0,,Unknown,Apartment,1.0,1.0,2.0,52.0,,,Gauteng,0.0
-1399900.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-1300000.0,,Unknown,Townhouse,2.0,2.0,1.0,107.0,,,Gauteng,0.0
-1090000.0,,Unknown,Apartment,2.0,2.0,2.0,78.0,,,Gauteng,0.0
-745000.0,,Unknown,Apartment,1.0,1.0,2.0,57.0,,,Gauteng,0.0
-1400000.0,,Unknown,Apartment,2.0,1.0,1.0,77.0,,,Gauteng,0.0
-899900.0,,Unknown,Apartment,1.0,1.0,1.0,60.0,,,Gauteng,0.0
-975000.0,,Unknown,Apartment,2.0,2.0,1.0,87.0,,,Gauteng,0.0
-1100000.0,,Unknown,Apartment,2.0,2.0,1.0,87.0,,,Gauteng,0.0
-1499000.0,,Unknown,Townhouse,2.0,2.0,1.0,102.0,,,Gauteng,0.0
-999000.0,,Unknown,Townhouse,2.0,2.0,2.0,114.0,,,Gauteng,0.0
-1399900.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-995000.0,,Unknown,Apartment,2.0,2.0,2.0,81.0,,,Gauteng,0.0
-1299900.0,,Unknown,Townhouse,2.0,2.0,2.0,109.0,,,Gauteng,0.0
-669300.0,,Unknown,Apartment,1.0,1.0,1.0,54.0,,,Gauteng,0.0
-4500000.0,,Unknown,House,4.0,1.0,1.0,800.0,,,Gauteng,0.0
-799900.0,,Unknown,Apartment,1.0,1.0,1.0,47.0,,,Gauteng,0.0
-1369900.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-790000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-1585000.0,,Unknown,Townhouse,2.0,2.0,2.0,94.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,2.0,94.0,,,Gauteng,0.0
-1099000.0,,Unknown,Apartment,2.0,2.0,2.0,78.0,,,Gauteng,0.0
-1050000.0,,Unknown,Apartment,2.0,2.0,2.0,83.0,,,Gauteng,0.0
-1620000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-1300000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-1220000.0,,Unknown,Townhouse,2.0,2.0,2.0,100.0,,,Gauteng,0.0
-1275000.0,,Unknown,Townhouse,2.0,2.0,2.0,106.0,,,Gauteng,0.0
-1625000.0,,Unknown,Townhouse,2.0,2.0,1.0,104.0,,,Gauteng,0.0
-1299900.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-1299900.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,2.0,1.0,64.0,,,Gauteng,0.0
-755000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-2950000.0,,Unknown,House,4.0,2.0,2.0,350.0,,,Gauteng,0.0
-1750000.0,,Unknown,Townhouse,2.0,2.0,2.0,109.0,,,Gauteng,0.0
-969900.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,1.0,1.0,88.0,,,Gauteng,0.0
-755000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-1099000.0,,Unknown,Townhouse,2.0,2.0,2.0,109.0,,,Gauteng,0.0
-525000.0,,Unknown,Apartment,1.0,1.0,1.0,50.0,,,Gauteng,0.0
-1375000.0,,Unknown,Townhouse,2.0,2.0,2.0,97.0,,,Gauteng,0.0
-1225000.0,,Unknown,Townhouse,2.0,2.0,2.0,101.0,,,Gauteng,0.0
-1900000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-1369900.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-850000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-1625000.0,,Unknown,Townhouse,2.0,2.0,1.0,104.0,,,Gauteng,0.0
-780000.0,,Unknown,Apartment,1.0,1.0,2.0,45.0,,,Gauteng,0.0
-1195000.0,,Unknown,Apartment,2.0,1.0,2.0,81.0,,,Gauteng,0.0
-930000.0,,Unknown,Apartment,2.0,2.0,1.0,77.0,,,Gauteng,0.0
-1250000.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,1.0,1.0,52.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,1.0,1.0,62.0,,,Gauteng,0.0
-899000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-1100000.0,,Unknown,Townhouse,2.0,2.0,1.0,107.0,,,Gauteng,0.0
-1650000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-930000.0,,Unknown,Apartment,2.0,2.0,1.0,77.0,,,Gauteng,0.0
-1369900.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-1300000.0,,Unknown,Apartment,2.0,2.0,2.0,85.0,,,Gauteng,0.0
-6472000.0,,Unknown,House,4.0,1.0,1.0,1865.0,,,Gauteng,0.0
-1650000.0,,Unknown,Townhouse,2.0,2.0,2.0,108.0,,,Gauteng,0.0
-6472000.0,,Unknown,House,4.0,1.0,1.0,1865.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,2.0,1.0,82.0,,,Gauteng,0.0
-1369900.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-4300000.0,,Unknown,House,4.0,3.5,2.0,450.0,,,Gauteng,0.0
-699000.0,,Unknown,Apartment,2.0,1.0,1.0,67.0,,,Gauteng,0.0
-830000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-1495000.0,,Unknown,Townhouse,2.0,2.0,2.0,97.0,,,Gauteng,0.0
-1780000.0,,Unknown,House,3.0,3.5,2.0,130.0,,,Gauteng,0.0
-1095000.0,,Unknown,Townhouse,2.0,2.0,2.0,97.0,,,Gauteng,0.0
-1650000.0,,Unknown,Apartment,2.0,2.0,1.0,84.0,,,Gauteng,0.0
-4300000.0,,Unknown,House,4.0,3.5,2.0,450.0,,,Gauteng,0.0
-1299900.0,,Unknown,Townhouse,2.0,2.0,2.0,109.0,,,Gauteng,0.0
-960000.0,,Unknown,Apartment,2.0,1.0,1.0,70.0,,,Gauteng,0.0
-1249900.0,,Unknown,Townhouse,2.0,2.0,2.0,106.0,,,Gauteng,0.0
-900000.0,,Unknown,Townhouse,2.0,1.0,1.0,107.0,,,Gauteng,0.0
-1699000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-1670000.0,,Unknown,Townhouse,2.0,2.0,2.0,108.0,,,Gauteng,0.0
-1650000.0,,Unknown,House,3.0,2.5,2.0,176.0,,,Gauteng,0.0
-1750000.0,,Unknown,Townhouse,2.0,2.0,2.0,107.0,,,Gauteng,0.0
-1650000.0,,Unknown,Townhouse,2.0,2.0,1.0,104.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,2.0,1.0,64.0,,,Gauteng,0.0
-899000.0,,Unknown,Apartment,2.0,1.0,1.0,65.0,,,Gauteng,0.0
-2998000.0,,Unknown,House,3.0,3.5,2.0,156.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,1.0,1.0,2.0,53.0,,,Gauteng,0.0
-900000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,2.0,2.0,76.0,,,Gauteng,0.0
-1149900.0,,"Founders Hill Crescent, Antwerp Road, Founders Hill, Lethabong",Apartment,2.0,2.0,2.0,78.0,,,Gauteng,0.0
-1190000.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-1199000.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-1495000.0,,Unknown,Townhouse,2.0,2.0,2.0,103.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,1.0,1.0,2.0,54.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,1.0,1.0,2.0,54.0,,,Gauteng,0.0
-749000.0,,Unknown,Apartment,2.0,1.0,2.0,68.0,,,Gauteng,0.0
-1670000.0,,Unknown,Townhouse,2.0,2.0,2.0,108.0,,,Gauteng,0.0
-1299900.0,,Unknown,Townhouse,2.0,2.0,2.0,109.0,,,Gauteng,0.0
-3500000.0,,Unknown,Townhouse,2.0,1.0,1.0,99.0,,,Gauteng,0.0
-625000.0,,Unknown,Apartment,1.0,1.0,1.0,47.0,,,Gauteng,0.0
-900000.0,,Unknown,Apartment,2.0,1.0,1.0,67.0,,,Gauteng,0.0
-790000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-1400000.0,,Unknown,Townhouse,2.0,2.0,1.0,106.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,1.0,1.0,43.0,,,Gauteng,0.0
-870000.0,,Unknown,Apartment,2.0,2.0,1.0,71.0,,,Gauteng,0.0
-790000.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-17000000.0,,Unknown,House,4.0,1.0,1.0,2000.0,,,Gauteng,0.0
-1399900.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-1450000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-900000.0,,Unknown,Townhouse,2.0,1.0,2.0,99.0,,,Gauteng,0.0
-430000.0,,Unknown,Apartment,1.0,1.0,1.0,33.0,,,Gauteng,0.0
-1399900.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-1399900.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-1299000.0,,Unknown,Townhouse,2.0,2.0,2.0,101.0,,,Gauteng,0.0
-1620000.0,,Unknown,Townhouse,2.0,2.0,2.0,108.0,,,Gauteng,0.0
-1990000.0,,Unknown,Townhouse,2.0,2.0,2.0,111.0,,,Gauteng,0.0
-1360000.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-1369900.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-1350000.0,,Unknown,Townhouse,2.0,2.0,2.0,101.0,,,Gauteng,0.0
-890000.0,,Unknown,Apartment,2.0,2.0,1.0,87.0,,,Gauteng,0.0
-1399900.0,,Unknown,Townhouse,2.0,2.0,2.0,109.0,,,Gauteng,0.0
-1399900.0,,Unknown,Townhouse,2.0,2.0,2.0,110.0,,,Gauteng,0.0
-1280000.0,,Unknown,Townhouse,2.0,2.0,2.0,101.0,,,Gauteng,0.0
-750000.0,,Modderfontein Modderfontein,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-1180000.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-895000.0,,Unknown,Townhouse,2.0,2.0,2.0,96.0,,,Gauteng,0.0
-2250000.0,,Unknown,House,3.0,2.5,2.0,159.0,,,Gauteng,0.0
-899900.0,,Unknown,Apartment,1.0,1.0,1.0,59.0,,,Gauteng,0.0
-1580000.0,,Unknown,House,3.0,2.0,2.0,154.0,,,Gauteng,0.0
-1050000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-1369900.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-1369900.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-1369900.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-1350000.0,,Unknown,House,3.0,2.0,2.0,126.0,,,Gauteng,0.0
-899000.0,,Unknown,Apartment,2.0,2.0,1.0,82.0,,,Gauteng,0.0
-900000.0,,Unknown,Apartment,2.0,1.0,1.0,67.0,,,Gauteng,0.0
-780000.0,,Unknown,Apartment,1.0,1.0,1.0,45.0,,,Gauteng,0.0
-1248000.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-1170000.0,,Unknown,Apartment,2.0,1.0,2.0,82.0,,,Gauteng,0.0
-1369900.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-870000.0,,Unknown,Apartment,2.0,2.0,2.0,71.0,,,Gauteng,0.0
-799900.0,,Unknown,Apartment,1.0,1.0,1.0,44.0,,,Gauteng,0.0
-1025000.0,,Unknown,Townhouse,2.0,2.0,1.0,104.0,,,Gauteng,0.0
-830000.0,,Unknown,Townhouse,2.0,2.0,2.0,111.0,,,Gauteng,0.0
-960000.0,,Unknown,Apartment,2.0,2.0,1.0,80.0,,,Gauteng,0.0
-1249900.0,,Unknown,Townhouse,2.0,2.0,2.0,100.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,1.0,1.0,88.0,,,Gauteng,0.0
-899900.0,,Unknown,Apartment,2.0,1.0,2.0,73.0,,,Gauteng,0.0
-1495000.0,,Unknown,Townhouse,2.0,2.0,1.0,97.0,,,Gauteng,0.0
-900000.0,,Unknown,Apartment,2.0,2.0,1.0,71.0,,,Gauteng,0.0
-849000.0,,Hereford Drive,Apartment,2.0,2.0,1.0,76.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,2.0,2.0,67.0,,,Gauteng,0.0
-995000.0,,Unknown,Apartment,2.0,2.0,1.0,81.0,,,Gauteng,0.0
-1395000.0,,Unknown,Townhouse,2.0,2.0,2.0,106.0,,,Gauteng,0.0
-1899000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-875000.0,,Unknown,Apartment,2.0,1.0,1.0,70.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,1.0,1.0,88.0,,,Gauteng,0.0
-1649000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,2.0,1.0,1.0,66.0,,,Gauteng,0.0
-1649000.0,,Unknown,Townhouse,2.0,2.0,2.0,104.0,,,Gauteng,0.0
-4000000.0,,Unknown,House,4.0,2.5,5.0,320.0,,,Gauteng,0.0
-1299900.0,,Unknown,Townhouse,2.0,2.0,2.0,105.0,,,Gauteng,0.0
-875000.0,,Unknown,Apartment,2.0,1.0,1.0,73.0,,,Gauteng,0.0
-1350000.0,,Unknown,House,3.0,2.0,2.0,126.0,,,Gauteng,0.0
-1680000.0,,Unknown,House,3.0,2.5,2.0,130.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,2.0,1.0,64.0,,,Gauteng,0.0
-1150000.0,,Unknown,Townhouse,2.0,2.0,3.0,109.0,,,Gauteng,0.0
-1150000.0,,Unknown,Apartment,2.0,2.0,2.0,89.0,,,Gauteng,0.0
-1050000.0,,Unknown,Apartment,2.0,2.0,2.0,83.0,,,Gauteng,0.0
-1590000.0,,Unknown,Townhouse,2.0,2.0,2.0,112.0,,,Gauteng,0.0
-899000.0,,Unknown,House,3.0,1.0,1.0,127.0,,,Gauteng,0.0
-1590000.0,,Unknown,Townhouse,2.0,2.0,2.0,112.0,,,Gauteng,0.0
-795000.0,,Unknown,Townhouse,2.0,1.5,1.0,92.0,,,Gauteng,0.0
-1550000.0,,Unknown,Townhouse,2.0,2.0,2.0,101.0,,,Gauteng,0.0
-795000.0,,Unknown,Apartment,2.0,1.0,1.0,79.0,,,Gauteng,0.0
-680000.0,,Unknown,Townhouse,2.0,1.0,1.0,97.0,,,Gauteng,0.0
-795000.0,,Unknown,Townhouse,2.0,1.5,1.0,92.0,,,Gauteng,0.0
-1550000.0,,Unknown,Townhouse,2.0,2.0,2.0,101.0,,,Gauteng,0.0
-899000.0,,Unknown,House,3.0,1.0,1.0,127.0,,,Gauteng,0.0
-899000.0,,Unknown,House,3.0,1.0,1.0,127.0,,,Gauteng,0.0
-680000.0,,Unknown,Townhouse,2.0,1.0,1.0,97.0,,,Gauteng,0.0
-465000.0,,Unknown,Apartment,2.0,1.0,2.0,85.0,,,Gauteng,0.0
-465000.0,,Unknown,Apartment,2.0,1.0,2.0,85.0,,,Gauteng,0.0
-650000.0,,Unknown,House,4.0,1.0,1.0,558.0,,,Gauteng,0.0
-540000.0,,Unknown,Apartment,2.0,1.0,1.0,85.0,,,Gauteng,0.0
-5950000.0,,Unknown,House,4.0,1.0,1.0,520.0,,,Gauteng,0.0
-2650000.0,,Unknown,House,4.0,1.0,1.0,1635.0,,,Gauteng,0.0
-4650000.0,,Unknown,House,4.0,1.0,1.0,420.0,,,Gauteng,0.0
-2150000.0,,Unknown,Apartment,2.0,2.0,1.0,86.0,,,Gauteng,0.0
-630000.0,,Unknown,Apartment,2.0,1.0,1.0,79.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,1.0,3.0,82.0,,,Gauteng,0.0
-1050000.0,,Unknown,Townhouse,2.0,1.0,2.0,91.0,,,Gauteng,0.0
-1050000.0,,Unknown,Townhouse,2.0,1.0,2.0,91.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,1.0,1.0,57.0,,,Gauteng,0.0
-1180000.0,,Unknown,Apartment,2.0,1.5,1.0,69.0,,,Gauteng,0.0
-1395000.0,,Unknown,House,3.0,2.0,1.0,225.0,,,Gauteng,0.0
-3500000.0,,Unknown,House,4.0,4.0,6.0,405.0,,,Gauteng,0.0
-2195000.0,,Unknown,Apartment,2.0,2.0,1.0,86.0,,,Gauteng,0.0
-1950000.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-1500000.0,,Unknown,House,3.0,2.0,4.0,168.0,,,Gauteng,0.0
-1950000.0,,Unknown,Townhouse,2.0,2.0,2.0,99.0,,,Gauteng,0.0
-800000.0,,Unknown,Apartment,1.0,1.0,1.0,49.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,2.0,1.0,1.0,79.0,,,Gauteng,0.0
-950000.0,,Unknown,House,3.0,1.5,1.0,127.0,,,Gauteng,0.0
-1200000.0,,Unknown,House,3.0,1.0,1.0,120.0,,,Gauteng,0.0
-970000.0,,Unknown,Apartment,1.0,2.0,1.0,64.0,,,Gauteng,0.0
-785000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-9900000.0,,Unknown,House,4.0,1.0,1.0,1727.0,,,Gauteng,0.0
-790000.0,,Unknown,Townhouse,2.0,2.0,1.0,90.0,,,Gauteng,0.0
-1599000.0,,Unknown,House,3.0,2.0,1.0,137.0,,,Gauteng,0.0
-1250000.0,,Unknown,House,3.0,1.0,1.0,121.0,,,Gauteng,0.0
-500000.0,,Unknown,Apartment,1.0,1.0,1.0,62.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-980000.0,,Unknown,Apartment,2.0,2.0,1.0,81.0,,,Gauteng,0.0
-1850000.0,,Unknown,Apartment,2.0,2.0,1.0,86.0,,,Gauteng,0.0
-899000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-750000.0,,Unknown,Townhouse,2.0,1.0,1.0,91.0,,,Gauteng,0.0
-1100000.0,,Unknown,House,3.0,2.0,1.0,121.0,,,Gauteng,0.0
-1200000.0,,Unknown,Apartment,2.0,2.0,1.0,89.0,,,Gauteng,0.0
-1599000.0,,Unknown,House,3.0,2.0,1.0,137.0,,,Gauteng,0.0
-999000.0,,Unknown,Apartment,2.0,2.0,1.0,68.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,2.0,1.0,1.0,74.0,,,Gauteng,0.0
-899000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-615000.0,,Unknown,Apartment,2.0,1.0,1.0,79.0,,,Gauteng,0.0
-1100000.0,,Unknown,House,3.0,1.0,1.0,121.0,,,Gauteng,0.0
-1050000.0,,Unknown,Apartment,2.0,2.0,2.0,74.0,,,Gauteng,0.0
-915000.0,,Unknown,Apartment,2.0,2.0,2.0,81.0,,,Gauteng,0.0
-700000.0,,Unknown,Apartment,1.0,1.0,1.0,42.0,,,Gauteng,0.0
-1250000.0,,Unknown,Apartment,2.0,2.0,1.0,65.0,,,Gauteng,0.0
-695000.0,,Unknown,Apartment,2.0,1.0,1.0,74.0,,,Gauteng,0.0
-915000.0,,Unknown,Apartment,2.0,2.0,2.0,81.0,,,Gauteng,0.0
-2080000.0,,Unknown,House,3.0,2.0,1.0,142.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,1.0,2.0,87.0,,,Gauteng,0.0
-1695000.0,,Unknown,House,3.0,2.0,6.0,239.0,,,Gauteng,0.0
-750000.0,,Unknown,Apartment,2.0,1.0,1.0,79.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,1.0,1.0,1.0,58.0,,,Gauteng,0.0
-615000.0,,Unknown,Apartment,2.0,1.0,1.0,79.0,,,Gauteng,0.0
-980000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-980000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-925000.0,,Unknown,Apartment,2.0,2.0,2.0,82.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,1.0,1.0,70.0,,,Gauteng,0.0
-1350000.0,,Unknown,House,3.0,3.0,2.0,146.0,,,Gauteng,0.0
-1175000.0,,Unknown,Apartment,2.0,1.0,1.0,74.0,,,Gauteng,0.0
-990000.0,,Unknown,House,3.0,2.0,2.0,135.0,,,Gauteng,0.0
-1300000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-990000.0,,Unknown,House,3.0,2.0,2.0,135.0,,,Gauteng,0.0
-1595000.0,,Unknown,Townhouse,2.0,2.0,2.0,94.0,,,Gauteng,0.0
-970000.0,,Unknown,Townhouse,2.0,1.0,1.0,90.0,,,Gauteng,0.0
-950000.0,,Unknown,Townhouse,2.0,2.0,1.0,91.0,,,Gauteng,0.0
-899000.0,,Unknown,Apartment,2.0,1.0,1.0,69.0,,,Gauteng,0.0
-1380000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,1.0,1.0,1.0,61.0,,,Gauteng,0.0
-7950000.0,,Unknown,House,4.0,1.0,1.0,1833.0,,,Gauteng,0.0
-1495000.0,,Unknown,House,3.0,2.0,3.0,126.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,1.0,1.0,1.0,61.0,,,Gauteng,0.0
-890000.0,,Unknown,Apartment,1.0,1.0,1.0,62.0,,,Gauteng,0.0
-1200000.0,,Unknown,House,3.0,2.5,1.0,126.0,,,Gauteng,0.0
-550000.0,,Unknown,Townhouse,2.0,1.0,1.0,91.0,,,Gauteng,0.0
-1395000.0,,Unknown,Townhouse,2.0,2.0,1.0,106.0,,,Gauteng,0.0
-999000.0,,Unknown,Apartment,1.0,1.0,1.0,57.0,,,Gauteng,0.0
-2750000.0,,Unknown,House,4.0,5.0,4.0,288.0,,,Gauteng,0.0
-840000.0,,Unknown,Apartment,1.0,1.0,1.0,9.0,,,Gauteng,0.0
-860000.0,,Unknown,Apartment,2.0,2.0,1.0,77.0,,,Gauteng,0.0
-965000.0,,Unknown,Apartment,2.0,2.0,2.0,86.0,,,Gauteng,0.0
-1550000.0,,Unknown,House,3.0,2.0,3.0,179.0,,,Gauteng,0.0
-1030000.0,,Unknown,House,3.0,2.0,2.0,135.0,,,Gauteng,0.0
-2100000.0,,Unknown,Apartment,2.0,2.0,2.0,89.0,,,Gauteng,0.0
-1150000.0,,Unknown,Apartment,2.0,1.0,1.0,74.0,,,Gauteng,0.0
-1095000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-1095000.0,,Unknown,House,3.0,2.0,1.0,131.0,,,Gauteng,0.0
-800000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-1800000.0,,Unknown,Townhouse,2.0,2.0,2.0,108.0,,,Gauteng,0.0
-870000.0,,Unknown,Townhouse,2.0,1.0,1.0,92.0,,,Gauteng,0.0
-850000.0,,Unknown,Townhouse,2.0,1.5,2.0,106.0,,,Gauteng,0.0
-795000.0,,Unknown,Apartment,2.0,1.0,1.0,78.0,,,Gauteng,0.0
-920000.0,,Unknown,Apartment,2.0,1.5,1.0,86.0,,,Gauteng,0.0
-695000.0,,Unknown,Townhouse,2.0,1.5,2.0,97.0,,,Gauteng,0.0
-850000.0,,Unknown,Townhouse,2.0,1.5,2.0,106.0,,,Gauteng,0.0
-2100000.0,,Unknown,House,3.0,3.0,2.0,159.0,,,Gauteng,0.0
-3200000.0,,Unknown,House,4.0,1.0,1.0,380.0,,,Gauteng,0.0
-849000.0,,Unknown,Apartment,2.0,1.0,1.0,72.0,,,Gauteng,0.0
-1850000.0,,Unknown,House,3.0,2.0,2.0,147.0,,,Gauteng,0.0
-2100000.0,,Unknown,House,3.0,3.0,2.0,159.0,,,Gauteng,0.0
-1800000.0,,Unknown,Townhouse,2.0,2.0,3.0,108.0,,,Gauteng,0.0
-1250000.0,,Unknown,House,3.0,2.0,1.0,116.0,,,Gauteng,0.0
-1099000.0,,Unknown,Apartment,2.0,1.0,1.0,85.0,,,Gauteng,0.0
-1150000.0,,Unknown,House,3.0,2.0,2.0,197.0,,,Gauteng,0.0
-2100000.0,,Unknown,Apartment,2.0,2.0,1.0,85.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,2.0,1.0,1.0,79.0,,,Gauteng,0.0
-2150000.0,,Unknown,House,3.0,2.0,1.0,116.0,,,Gauteng,0.0
-1200000.0,,Unknown,Apartment,2.0,2.0,1.0,89.0,,,Gauteng,0.0
-3500000.0,,Unknown,House,4.0,4.0,3.0,405.0,,,Gauteng,0.0
-900000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-950000.0,,Unknown,Townhouse,2.0,1.0,1.0,92.0,,,Gauteng,0.0
-1700000.0,,Unknown,House,3.0,2.0,1.0,225.0,,,Gauteng,0.0
-1680000.0,,Unknown,House,3.0,2.0,1.0,137.0,,,Gauteng,0.0
-649000.0,,Unknown,Apartment,1.0,1.0,1.0,61.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,2.0,2.0,2.0,82.0,,,Gauteng,0.0
-780000.0,,Unknown,Apartment,2.0,1.0,2.0,75.0,,,Gauteng,0.0
-2100000.0,,Unknown,Townhouse,2.0,2.0,1.0,99.0,,,Gauteng,0.0
-820000.0,,Unknown,Apartment,2.0,1.0,1.0,71.0,,,Gauteng,0.0
-1150000.0,,Unknown,Apartment,2.0,1.0,1.0,89.0,,,Gauteng,0.0
-1890000.0,,Unknown,House,3.0,2.0,4.0,154.0,,,Gauteng,0.0
-950000.0,,Unknown,Townhouse,2.0,1.0,1.0,92.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,1.0,2.0,66.0,,,Gauteng,0.0
-950000.0,,Unknown,Apartment,1.0,1.0,1.0,62.0,,,Gauteng,0.0
-895000.0,,Unknown,Apartment,2.0,1.0,1.0,85.0,,,Gauteng,0.0
-890000.0,,Unknown,Apartment,2.0,2.0,1.0,81.0,,,Gauteng,0.0
-950000.0,,Unknown,Townhouse,2.0,1.5,1.0,97.0,,,Gauteng,0.0
-1130000.0,,Unknown,Apartment,2.0,2.0,1.0,79.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,1.0,2.0,66.0,,,Gauteng,0.0
-1150000.0,,Unknown,Apartment,2.0,2.0,1.0,89.0,,,Gauteng,0.0
-645000.0,,Unknown,House,3.0,2.0,2.0,115.0,,,Gauteng,0.0
-1050000.0,,Unknown,Apartment,1.0,1.0,1.0,62.0,,,Gauteng,0.0
-1250000.0,,Unknown,House,3.0,2.0,2.0,116.0,,,Gauteng,0.0
-1100000.0,,Unknown,House,3.0,2.0,2.0,140.0,,,Gauteng,0.0
-650000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-1160000.0,,Unknown,Townhouse,2.0,2.0,1.0,95.0,,,Gauteng,0.0
-980000.0,,Unknown,Apartment,2.0,2.0,1.0,87.0,,,Gauteng,0.0
-865000.0,,Unknown,Apartment,2.0,2.0,1.0,74.0,,,Gauteng,0.0
-790000.0,,Unknown,Apartment,2.0,2.0,1.0,79.0,,,Gauteng,0.0
-849000.0,,Unknown,Apartment,2.0,2.0,1.0,68.0,,,Gauteng,0.0
-6500000.0,,Unknown,House,4.0,1.0,1.0,3220.0,,,Gauteng,0.0
-800000.0,,Unknown,Apartment,2.0,1.5,1.0,75.0,,,Gauteng,0.0
-1275000.0,,Unknown,Apartment,2.0,1.0,2.0,74.0,,,Gauteng,0.0
-1070000.0,,Unknown,Townhouse,2.0,2.0,1.0,93.0,,,Gauteng,0.0
-899000.0,,Unknown,Townhouse,2.0,1.5,2.0,109.0,,,Gauteng,0.0
-1750000.0,,Unknown,Apartment,2.0,2.0,1.0,85.0,,,Gauteng,0.0
-730000.0,,Unknown,Townhouse,2.0,1.0,1.0,97.0,,,Gauteng,0.0
-780000.0,,Unknown,Townhouse,2.0,1.0,1.0,97.0,,,Gauteng,0.0
-780000.0,,Unknown,Townhouse,2.0,1.0,1.0,97.0,,,Gauteng,0.0
-1150000.0,,Unknown,Apartment,2.0,1.0,1.0,74.0,,,Gauteng,0.0
-2100000.0,,Unknown,Apartment,2.0,2.0,2.0,85.0,,,Gauteng,0.0
-895000.0,,Unknown,Townhouse,2.0,1.0,1.0,92.0,,,Gauteng,0.0
-1450000.0,,Unknown,Townhouse,2.0,2.0,1.0,99.0,,,Gauteng,0.0
-760000.0,,Unknown,Apartment,2.0,1.0,1.0,73.0,,,Gauteng,0.0
-600000.0,,Unknown,Apartment,1.0,1.0,1.0,42.0,,,Gauteng,0.0
-920000.0,,Unknown,Townhouse,2.0,1.0,2.0,101.0,,,Gauteng,0.0
-1700000.0,,Unknown,House,3.0,2.0,5.0,239.0,,,Gauteng,0.0
-2189999.0,,Unknown,House,3.0,3.0,2.0,172.0,,,Gauteng,0.0
-950000.0,,Unknown,Townhouse,2.0,2.0,1.0,91.0,,,Gauteng,0.0
-2650000.0,,Unknown,House,3.0,3.0,3.0,232.0,,,Gauteng,0.0
-600000.0,,Unknown,Apartment,1.0,1.0,1.0,55.0,,,Gauteng,0.0
-1595000.0,,Unknown,House,3.0,2.0,2.0,157.0,,,Gauteng,0.0
-960750.0,,Unknown,Apartment,1.0,1.0,2.0,57.0,,,Gauteng,0.0
-1100000.0,,Unknown,House,3.0,2.0,1.0,156.0,,,Gauteng,0.0
-700000.0,,Unknown,Apartment,2.0,1.0,1.0,79.0,,,Gauteng,0.0
-780000.0,,Unknown,Townhouse,2.0,1.5,1.0,96.0,,,Gauteng,0.0
-1700000.0,,Unknown,House,3.0,3.0,2.0,214.0,,,Gauteng,0.0
-850000.0,,Unknown,Apartment,2.0,2.0,1.0,68.0,,,Gauteng,0.0
-999000.0,,Unknown,Apartment,2.0,2.0,1.0,79.0,,,Gauteng,0.0
-1299000.0,,Unknown,Apartment,2.0,2.0,1.0,80.0,,,Gauteng,0.0
-1400000.0,,Unknown,Townhouse,2.0,2.0,2.0,94.0,,,Gauteng,0.0
-995000.0,,Unknown,Apartment,2.0,1.5,1.0,75.0,,,Gauteng,0.0
-1400000.0,,Unknown,Townhouse,2.0,2.0,2.0,94.0,,,Gauteng,0.0
-545000.0,,Unknown,Apartment,1.0,1.0,1.0,43.0,,,Gauteng,0.0
-1100000.0,,Unknown,House,3.0,2.0,1.0,140.0,,,Gauteng,0.0
-1290000.0,,Unknown,House,3.0,2.0,1.0,126.0,,,Gauteng,0.0
-1100000.0,,Unknown,Apartment,2.0,2.0,1.0,73.0,,,Gauteng,0.0
-860000.0,,Unknown,Townhouse,2.0,1.0,1.0,95.0,,,Gauteng,0.0
+price_zar,city,suburb,property_type,bedrooms,bathrooms,parkings,floor_size_m2,erf_size_m2,title,source_text,province,garages
+3710000.0,,Jameson,House,3.0,3.0,2.0,121.0,,,50 Jameson,Gauteng,0.0
+2180000.0,,Jameson,Apartment,2.0,2.0,2.0,65.0,,,50 Jameson,Gauteng,0.0
+1305000.0,,Jameson,Apartment,1.0,1.0,1.0,33.0,,,50 Jameson,Gauteng,0.0
+1290000.0,,East,Apartment,2.0,2.0,2.0,79.0,,,"777 First Avenue Complex, 30 1st Avenue East",Gauteng,0.0
+1350000.0,,Crescent,Townhouse,2.0,1.0,1.0,105.0,,,"Unit 2, Sunset Forest, 22 Swempie Crescent",Gauteng,0.0
+670000.0,,Meredale,Apartment,1.0,1.0,2.0,49.0,,,"Miami Gardens, 55 Murrray Avenue, Meredale",Gauteng,0.0
+2299000.0,,Parkwood,Apartment,2.0,2.0,1.0,76.0,,,"39 Ashford Road, Parkwood",Gauteng,0.0
+765000.0,,Lane,Apartment,2.0,1.0,1.0,70.0,,,"16 Aquila, 10 Middle Lane",Gauteng,0.0
+740000.0,,Dawn,Apartment,2.0,2.0,1.0,80.0,,,"1389 Zeiss Road, Eagle Dawn",Gauteng,0.0
+250000.0,,Lily,House,4.0,1.0,1.0,1239.0,,,24 Lily,Gauteng,0.0
+850000.0,,Place,Townhouse,2.0,1.0,1.0,113.0,,,"9 Ss Juliana, 4 Princess Place",Gauteng,0.0
+1100000.0,,Werf,Apartment,2.0,1.0,1.0,80.0,,,Braamfontein Werf,Gauteng,0.0
+799900.0,,Parks,Apartment,1.0,1.0,1.0,43.0,,,"1 Stanley Park, 1 754 Oakdene Parks",Gauteng,0.0
+765000.0,,Place,Apartment,2.0,1.0,1.0,70.0,,,"Aquila, 15ac Lynton Place",Gauteng,0.0
+850000.0,,Roud,Apartment,1.0,1.0,1.0,52.0,,,"718 Route 82 Security Complex, 1b Vereenegen Roud",Gauteng,0.0
+850000.0,,Roud,Apartment,1.0,1.0,1.0,52.0,,,"718 Route 82 Security Complex, 1b Vereenegen Roud",Gauteng,0.0
+649950.0,,Vincent,House,3.0,2.0,2.0,123.0,,,18 Vincent Road,Eastern Cape,0.0
+375000.0,,Korte,House,4.0,1.0,1.0,995.0,,,98 De Korte,Gauteng,0.0
+1499999.0,,Killarney,House,3.0,2.0,1.0,158.0,,,39 3rd St Killarney,Gauteng,0.0
+1650000.0,,Alexandra,Apartment,2.0,1.0,1.0,85.0,,,"Craighall Estate, 63 Alexandra Ave, Craighall",Gauteng,0.0
+2199999.0,,George,House,3.0,1.0,1.0,123.0,,,28 George Street,Western Cape,0.0
+2295000.0,,North,House,3.0,2.5,4.0,180.0,,,"22 Ss Villa Della Montagna, 51 Alwyn Avenue North",Gauteng,0.0
+5500000.0,,South,House,4.0,1.0,1.0,1320.0,,,Piketberg Pl Lenasia South,Gauteng,0.0
+765000.0,,Lane,Apartment,1.0,1.0,1.0,7.0,,,"16 Ss Aquila, 10 Middle Lane",Gauteng,0.0
+1690000.0,,Whiteley,Apartment,1.0,1.0,3.0,44.0,,,"543 Ss One On Whiteley, 1 Whiteley",Gauteng,0.0
+895000.0,,Place,Apartment,1.0,1.0,1.0,59.0,,,5 Rocky Place,Gauteng,0.0
+799419.0,,Village,Apartment,1.0,1.0,1.0,53.0,,,958 Route 82 Security Estate Village,Gauteng,0.0
+500000.0,,South,Apartment,1.0,1.0,2.0,53.0,,,14a Redbuck Road Elandspark Johannesburg South,Gauteng,0.0
+799000.0,,Constantia,Apartment,2.0,1.0,1.0,66.0,,,18 Constantia,Western Cape,0.0
+799999.0,,Risana,Townhouse,2.0,1.0,2.0,90.0,,,"Bolderview, 2 Risana Avenue, Risana",Gauteng,0.0
+1000000.0,,Place,House,3.0,1.0,2.0,127.0,,,"13 Inyoni Hills, 3 Denton Place",Gauteng,0.0
+25000000.0,,Oppenheimer,House,4.0,1.0,1.0,2324.0,,,15 Ernest Oppenheimer,Gauteng,0.0
+720000.0,,Houghton,Apartment,2.0,1.0,1.0,66.0,,,"6 Bound... 6 Boundary Rd, Houghton Estate",Gauteng,0.0
+440000.0,,Graskop,Apartment,1.0,1.0,1.0,37.0,,,"Unit 17, Door No 14, Scheme No: Ss Panorama, 144/0, Erf Kt , 564, 44 (sectional Title) Graskop",Gauteng,0.0
+6080000.0,,Way,House,4.0,1.0,1.0,320.0,,,"59-64 Millennium Business Park, 45 Edison Way",Gauteng,0.0
+3650000.0,,Lane,House,3.0,2.0,2.0,117.0,,,"3650 Ashton Park, 1 Studio Lane",Gauteng,0.0
+2400000.0,,Way,Townhouse,2.0,1.0,1.0,98.0,,,"47 Millennium Business Park, 19 Edison Way",Gauteng,0.0
+3479000.0,,Island,Townhouse,2.0,2.0,2.0,112.0,,,Chandos Rd Woodbridge Island,Gauteng,0.0
+1600000.0,,Way,House,4.0,1.0,1.0,1041.0,,,15 Williams Way,Gauteng,0.0
+2450000.0,,Way,House,3.0,1.0,1.0,148.0,,,3 Democracy Way,Gauteng,0.0
+4995000.0,,Lane,House,3.0,2.0,2.0,145.0,,,"Portofino, The Island Club, 2 North Bank Lane",Gauteng,0.0
+13900000.0,,Way,House,4.0,1.0,1.0,2100.0,,,10 Winning Way,Gauteng,0.0
+4995000.0,,Lane,House,3.0,2.0,2.0,145.0,,,"Portofino, The Island Club, 2 North Bank Lane",Gauteng,0.0
+7000000.0,,Way,House,4.0,1.0,1.0,516.0,,,17 Printers Way,Gauteng,0.0
+2095000.0,,Circle,Apartment,1.0,1.0,1.0,55.0,,,9 Burmeister Circle,Gauteng,0.0
+2475000.0,,Circle,Apartment,1.0,1.0,1.0,55.0,,,10 Burmeister Circle,Gauteng,0.0
+5500000.0,,Bridgway,House,3.0,3.0,2.0,116.0,,,"5500 Axis, 1 Bridgway",Gauteng,0.0
+3750000.0,,Boulevard,Apartment,2.0,2.0,2.0,72.0,,,"2702 Park Place, 1 Century Boulevard",Gauteng,0.0
+3885000.0,,Quays,Townhouse,2.0,1.0,1.0,111.0,,,"8 Park Lane, The Quays",Gauteng,0.0
+2595000.0,,Boulevard,Apartment,1.0,1.0,1.0,51.0,,,"2595 Nine Palms, 15 Century Boulevard",Gauteng,0.0
+2450000.0,,Circle,Apartment,1.0,1.0,1.0,57.0,,,9 Burmeister Circle,Gauteng,0.0
+1680000.0,,Indigo,Apartment,1.0,1.0,1.0,64.0,,,"R1680 Bowtie, 4 Indigo",Gauteng,0.0
+3800000.0,,Way,House,3.0,1.0,1.0,190.0,,,"28 - 30 Millennium Business Park, 19 Edison Way",Gauteng,0.0
+4600000.0,,Bridgeway,Townhouse,2.0,2.0,2.0,99.0,,,"4600 Axis, 1 Bridgeway",Gauteng,0.0
+1580000.0,,Close,Apartment,2.0,1.0,1.0,66.0,,,"Ss Equini Lifestyle Centre, 82 Pegasus Close",Gauteng,0.0
+1580000.0,,Close,Apartment,2.0,1.0,1.0,66.0,,,"Ss Equini Lifestyle Centre, 82 Pegasus Close",Gauteng,0.0
+5995000.0,,Lane,House,3.0,2.0,2.0,157.0,,,"5995 The Island Club, 1 Northbank Lane",Gauteng,0.0
+4390000.0,,Bridgeway,Townhouse,2.0,2.0,2.0,90.0,,,"4390 Axis, 1 Bridgeway",Gauteng,0.0
+2850000.0,,Blvd,Apartment,1.0,1.0,1.0,45.0,,,15 Century Blvd,Gauteng,0.0
+3585000.0,,Lane,House,3.0,1.0,1.0,140.0,,,"1 The Forum, 6 Park Lane",Gauteng,0.0
+6250000.0,,Park,Townhouse,2.0,2.0,2.0,108.0,,,"2801 The Bridges, 801 Ratanga Park",Gauteng,0.0
+1600000.0,,Estate,Apartment,2.0,2.0,2.0,74.0,,,"147 Avenida, Burgundy Estate",Gauteng,0.0
+989900.0,,Views,Apartment,1.0,1.0,1.0,38.0,,,"A402, Pioneer Views",Gauteng,0.0
+2050000.0,,Cinnebar,Townhouse,2.0,2.0,2.0,103.0,,,"322 Hazelwood, 9 Cinnebar",Gauteng,0.0
+2895000.0,,Blanc,Townhouse,2.0,2.0,1.0,98.0,,,"1506 Oasis Life Retirement, 1506 Pinot Blanc",Gauteng,0.0
+1069900.0,,Views,Apartment,1.0,1.0,1.0,48.0,,,D204 Pioneer Views,Gauteng,0.0
+2980000.0,,Blvd,House,3.0,2.0,2.0,158.0,,,12 Grand National Blvd,Gauteng,0.0
+3900000.0,,Park,Townhouse,2.0,2.0,2.0,107.0,,,"2104 The Bridges, 1 Ratanga Park",Gauteng,0.0
+2350000.0,,Boulevard,House,3.0,2.0,3.0,165.0,,,17 Grand National Boulevard,Gauteng,0.0
+3800000.0,,Way,House,3.0,1.0,1.0,190.0,,,"28 Millennium Business Park, 19 Edison Way",Gauteng,0.0
+3950000.0,,Park,Apartment,2.0,2.0,2.0,72.0,,,"2513 The Bridges, 1 Ratanga Park",Gauteng,0.0
+3950000.0,,Park,Apartment,2.0,2.0,2.0,72.0,,,"513 The Bridges, 6 Ratanga Park",Gauteng,0.0
+3900000.0,,Park,Apartment,2.0,2.0,2.0,72.0,,,"2104 The Bridges, 1 Ratanga Park",Gauteng,0.0
+1495000.0,,Square,Apartment,1.0,1.0,1.0,47.0,,,"A3 Waterstone East, 1 Waterstone Square",Gauteng,0.0
+1395000.0,,Close,Apartment,1.0,1.0,1.0,39.0,,,"Greyville Square, 1 Greyville Close",Gauteng,0.0
+3850000.0,,Bridgeway,Townhouse,2.0,2.0,2.0,90.0,,,"3850 Axis, 1 Bridgeway",Gauteng,0.0
+4500000.0,,Way,House,4.0,1.0,1.0,300.0,,,59 Williams Way,Gauteng,0.0
+1850000.0,,Boulevard,Apartment,1.0,1.0,1.0,29.0,,,"1850 Nine Palms, 15 Century Boulevard",Gauteng,0.0
+4395000.0,,Boulevard,Townhouse,2.0,2.0,2.0,95.0,,,"1308 Park Place, 5 Century Boulevard",Gauteng,0.0
+11900000.0,,Resort,House,3.0,3.0,2.0,247.0,,,"1103 Palme Vue, Oasis Luxury Retirement Resort",Gauteng,0.0
+2195000.0,,Milnerton,Apartment,1.0,1.0,1.0,55.0,,,"402 Ss THE Burmeister On Park, 9 Burmeister Circle Milnerton",Gauteng,0.0
+3800000.0,,Way,House,3.0,1.0,1.0,207.0,,,"123-126 Millenium Business Park, 19 Edison Way",Gauteng,0.0
+2350000.0,,Circle,Apartment,1.0,1.0,1.0,56.0,,,10 Burmeister Circle,Gauteng,0.0
+1850000.0,,Boulevard,Apartment,1.0,1.0,1.0,29.0,,,"20957 Nine Palms, 17 Century Boulevard",Gauteng,0.0
+3525900.0,,Way,House,3.0,1.0,1.0,219.0,,,19 Edison Way,Gauteng,0.0
+6950000.0,,Lane,House,4.0,1.0,1.0,262.0,,,2 Park Lane,Gauteng,0.0
+9600000.0,,Way,House,4.0,1.0,1.0,2280.0,,,16 Winning Way,Gauteng,0.0
+4695000.0,,Lane,House,3.0,2.0,2.0,170.0,,,"123 Portofino, 6 North Bank Lane",Gauteng,0.0
+3400000.0,,Boulevard,Apartment,2.0,2.0,2.0,87.0,,,Century Boulevard,Gauteng,0.0
+3600000.0,,Way,House,3.0,1.0,1.0,137.0,,,"G01 The Forum, 6 Century Way",Gauteng,0.0
+5500000.0,,Lane,House,3.0,2.0,2.0,128.0,,,"5500 Island Club, 2 North Bank Lane",Gauteng,0.0
+3600000.0,,Way,House,3.0,1.0,1.0,137.0,,,"G01 The Forum, 6 Century Way",Gauteng,0.0
+1295000.0,,Circle,Townhouse,2.0,2.0,2.0,108.0,,,5 Gardner Circle,Gauteng,0.0
+2295000.0,,Raleigh,House,4.0,1.0,1.0,293.0,,,11 Raleigh,Gauteng,0.0
+510000.0,,Gqeberha,House,3.0,1.0,1.0,121.0,,,"12 Middle Avenue North End Gqeberha,",Gauteng,0.0
+449000.0,,Humewood,Apartment,1.0,1.0,1.0,40.0,,,"C2 Humewood Gardens, 16 Cranwell Drive",Eastern Cape,0.0
+1025000.0,,Circle,Apartment,2.0,2.0,1.0,89.0,,,"42 Bridgewater, 4 Gardner Circle",Gauteng,0.0
+12000000.0,,Estate,House,4.0,1.0,1.0,1400.0,,,Erf 601 Wells Estate,Gauteng,0.0
+12000000.0,,Estate,House,4.0,1.0,1.0,1400.0,,,Erf 601 Wells Estate,Gauteng,0.0
+825000.0,,Lorraine,Apartment,1.0,1.0,1.0,44.0,,,"50 Longwy Ave, Lorraine",Gauteng,0.0
+2150000.0,,Waterfront,House,3.0,2.0,2.0,132.0,,,THE Waterfront 11 Windermere Road,Western Cape,0.0
+825000.0,,Devon,Apartment,2.0,1.0,2.0,76.0,,,"5 Dick King, 9999 Devon",Gauteng,0.0
+2350000.0,,End,House,4.0,4.0,3.0,325.0,,,"43 Gardner Circle, South End",Gauteng,0.0
+695000.0,,Crescent,Townhouse,2.0,1.0,1.0,99.0,,,5 Richmond Hill Crescent,Gauteng,0.0
+795000.0,,Warbler,Apartment,1.0,1.0,2.0,48.0,,,107 Warbler,Gauteng,0.0
+739000.0,,Laan,Apartment,1.0,1.0,1.0,42.0,,,"15 The Terraces, 142 Hospice Laan",Gauteng,0.0
+959000.0,,Laan,Apartment,2.0,2.0,1.0,65.0,,,"5 The Terraces, 147 Hospice Laan",Gauteng,0.0
+699000.0,,Laan,Apartment,1.0,1.0,1.0,42.0,,,"16 The Terraces, 143 Hospice Laan",Gauteng,0.0
+899000.0,,Vista,Townhouse,2.0,1.0,1.0,108.0,,,19 Monte Vista,Gauteng,0.0
+1250000.0,,Walmer,House,3.0,2.0,2.0,118.0,,,"5 1st Avenue, Walmer",Gauteng,0.0
+999000.0,,Laan,Apartment,2.0,2.0,1.0,65.0,,,"4 The Terraces, 146 Hospice Laan",Gauteng,0.0
+540000.0,,View,Apartment,1.0,1.0,1.0,59.0,,,Village 3 Ridge View,Gauteng,0.0
+690000.0,,Floor,Apartment,1.0,1.0,1.0,59.0,,,Village 2 Ridge View Ground Floor,Gauteng,0.0
+4350000.0,,Sasolburg,House,4.0,1.0,1.0,1100.0,,,"10 Rembrandt Street, Sasolburg, Freestate",Free State,0.0
+860000.0,,Crescent,Townhouse,2.0,2.0,1.0,95.0,,,29 Bosduif Crescent,Gauteng,0.0
+1910000.0,,Klopper,House,3.0,1.0,1.0,150.0,,,113a Klopper,Gauteng,0.0
+950000.0,,Boulevard,Apartment,2.0,1.0,2.0,75.0,,,"56 Acacia, 23 Emerald Boulevard",Gauteng,0.0
+999000.0,,Boulevard,Apartment,2.0,2.0,2.0,80.0,,,"23 Ss Acacia, 36 Emerald Boulevard",Gauteng,0.0
+1299900.0,,Close,Townhouse,2.0,2.0,2.0,109.0,,,"136 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1150000.0,,Close,Townhouse,2.0,2.0,2.0,94.0,,,"35 Ss THE Isle, 9 Stone Close",Gauteng,0.0
+1150000.0,,Close,Townhouse,2.0,2.0,2.0,94.0,,,9 Stone Close,Gauteng,0.0
+829900.0,,Lethabong,Apartment,1.0,1.0,1.0,52.0,,,"Founders Hill Crescent, Antwerp Rd, Founders Hill, Lethabong",Gauteng,0.0
+1399900.0,,Close,Townhouse,2.0,2.0,2.0,110.0,,,"403 Ss Malakite, 10 Stone Close",Gauteng,0.0
+920000.0,,Lethabong,Apartment,2.0,2.0,2.0,71.0,,,"4 Stone Close, Modderfontein, Lethabong",Gauteng,0.0
+1650000.0,,Parkway,Townhouse,2.0,2.0,3.0,104.0,,,1 Emerald Parkway,Gauteng,0.0
+790000.0,,Close,Apartment,1.0,1.0,1.0,44.0,,,"117 Malakite, 10 Stone Close",Gauteng,0.0
+925000.0,,Close,Apartment,2.0,1.0,2.0,70.0,,,"16 Ss THE Vineyard, 2 Harris Close",Gauteng,0.0
+1425000.0,,Lane,Townhouse,2.0,2.0,2.0,96.0,,,"5505 Fish Eagle View, 15c Benacre Lane",Gauteng,0.0
+1395000.0,,Parkway,Townhouse,2.0,2.0,2.0,105.0,,,17 Emerald Parkway,Gauteng,0.0
+1299000.0,,Boulevard,Townhouse,2.0,2.0,2.0,101.0,,,"68 Greenstone Ridge, 1 Emerald Boulevard",Gauteng,0.0
+780000.0,,Place,Apartment,1.0,1.0,1.0,45.0,,,"Unit 109 Sheraton, 78b Lopis Place,",Gauteng,0.0
+749000.0,,Square,Apartment,2.0,1.0,2.0,68.0,,,"74 Victoria Square, 74 Victoria Square",Gauteng,0.0
+780000.0,,Place,Apartment,1.0,1.0,1.0,45.0,,,78b Lopis Place,Gauteng,0.0
+780000.0,,Place,Apartment,1.0,1.0,1.0,45.0,,,78b Lopis Place,Gauteng,0.0
+925000.0,,Close,Apartment,2.0,1.0,1.0,70.0,,,"106 Ss THE Vineyard, 2 Harris Close",Gauteng,0.0
+820000.0,,Lane,Apartment,1.0,1.0,1.0,57.0,,,"Fish Eagle View, 15c Benacre Lane",Gauteng,0.0
+970000.0,,Park,Apartment,2.0,1.0,2.0,74.0,,,"32 the Reeds, 11 Fuschia Drive, Waterstone Park,",Gauteng,0.0
+1150000.0,,Close,Apartment,2.0,2.0,1.0,73.0,,,"17 Strelitzia, 4 Stone Close",Gauteng,0.0
+780000.0,,Close,Apartment,1.0,1.0,1.0,44.0,,,10 Stone Close,Gauteng,0.0
+1500000.0,,Lane,Apartment,2.0,2.0,4.0,86.0,,,15 Benacre Lane,Gauteng,0.0
+540000.0,,Voortrekker,Apartment,1.0,1.0,1.0,53.0,,,"24 Desnor, 97 Voortrekker",Gauteng,0.0
+900000.0,,Close,Apartment,2.0,2.0,1.0,70.0,,,"U189 Strelitzia, 2 Stone Close",Gauteng,0.0
+1650000.0,,Close,Townhouse,2.0,2.0,3.0,108.0,,,"U171 Malakite, 62 Stone Close",Gauteng,0.0
+1659900.0,,Lethabong,Townhouse,2.0,2.0,2.0,96.0,,,"Fish Eagle View, 15c Benacre Lane, Longlake Ext 6, Lethabong",Gauteng,0.0
+720000.0,,Close,Apartment,1.0,1.0,2.0,52.0,,,"U71-B6 Strelitzia, 4 Stone Close",Gauteng,0.0
+1399900.0,,Close,Townhouse,2.0,2.0,2.0,105.0,,,"134 Ss Malakite, 10 Stone Close",Gauteng,0.0
+899900.0,,Close,Apartment,1.0,1.0,1.0,60.0,,,"48610066 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1399900.0,,Close,Townhouse,2.0,2.0,2.0,105.0,,,"134 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1299900.0,,Close,Townhouse,2.0,2.0,2.0,109.0,,,"1200505 Ss Malakite, 10 Stone Close",Gauteng,0.0
+669300.0,,Edenvale,Apartment,1.0,1.0,1.0,54.0,,,67 7th Avenue Edenvale Gauteng,Gauteng,0.0
+799900.0,,Close,Apartment,1.0,1.0,1.0,47.0,,,"37710026 Ss Malakite, 10 Stone Close",Gauteng,0.0
+790000.0,,Close,Apartment,1.0,1.0,1.0,45.0,,,344 Stone Close,Gauteng,0.0
+1300000.0,,Boulevard,Townhouse,2.0,2.0,2.0,104.0,,,23 Emerald Boulevard,Gauteng,0.0
+1220000.0,,Boulevard,Townhouse,2.0,2.0,2.0,100.0,,,24 Emerald Boulevard,Gauteng,0.0
+1299900.0,,Close,Townhouse,2.0,2.0,2.0,105.0,,,"106 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1299900.0,,Close,Townhouse,2.0,2.0,2.0,105.0,,,"6565 Ss Malakite, 10 Stone Close",Gauteng,0.0
+755000.0,,Smith,Apartment,2.0,2.0,1.0,74.0,,,999 Smith,Gauteng,0.0
+755000.0,,Smith,Apartment,2.0,2.0,1.0,74.0,,,999 Smith,Gauteng,0.0
+1375000.0,,Hereford,Townhouse,2.0,2.0,2.0,97.0,,,"322 Greenstone Gate, 18 Hereford",Gauteng,0.0
+1195000.0,,Boulevard,Apartment,2.0,1.0,2.0,81.0,,,23 Emerald Boulevard,Gauteng,0.0
+1250000.0,,Close,Townhouse,2.0,2.0,2.0,110.0,,,344 Stone Close,Gauteng,0.0
+899000.0,,Place,Apartment,1.0,1.0,1.0,45.0,,,38 Greenstone Place,Gauteng,0.0
+1300000.0,,Boulevard,Apartment,2.0,2.0,2.0,85.0,,,1 Emerald Boulevard,Gauteng,0.0
+1299900.0,,Close,Townhouse,2.0,2.0,2.0,109.0,,,"10609 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1670000.0,,Close,Townhouse,2.0,2.0,2.0,108.0,,,"171 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1149900.0,,Lethabong,Apartment,2.0,2.0,2.0,78.0,,,"Founders Hill Crescent, Antwerp Road, Founders Hill, Lethabong",Gauteng,0.0
+1495000.0,,Lethabong,Townhouse,2.0,2.0,2.0,103.0,,,"Westlake Eco-Estate, 63 Westfield Rd, Lethabong",Gauteng,0.0
+749000.0,,Baker,Apartment,2.0,1.0,2.0,68.0,,,15 Baker,Gauteng,0.0
+1670000.0,,Close,Townhouse,2.0,2.0,2.0,108.0,,,10 Stone Close,Gauteng,0.0
+1299900.0,,Close,Townhouse,2.0,2.0,2.0,109.0,,,"46 Ss Malakite, 344 Stone Close",Gauteng,0.0
+1399900.0,,Close,Townhouse,2.0,2.0,2.0,110.0,,,"604 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1399900.0,,Close,Townhouse,2.0,2.0,2.0,110.0,,,"33 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1399900.0,,Close,Townhouse,2.0,2.0,2.0,110.0,,,"404 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1399900.0,,Close,Townhouse,2.0,2.0,2.0,109.0,,,"3511 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1399900.0,,Close,Townhouse,2.0,2.0,2.0,110.0,,,"404 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1280000.0,,Boulevard,Townhouse,2.0,2.0,2.0,101.0,,,1 Emerald Boulevard,Gauteng,0.0
+750000.0,,Modderfontein,Apartment,1.0,1.0,1.0,45.0,,,Modderfontein Modderfontein,Gauteng,0.0
+899900.0,,Close,Apartment,1.0,1.0,1.0,59.0,,,"120039 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1170000.0,,Boulevard,Apartment,2.0,1.0,2.0,82.0,,,"365 Ss Acacia, 36 Emerald Boulevard",Gauteng,0.0
+799900.0,,Close,Apartment,1.0,1.0,1.0,44.0,,,"120007 Ss Malakite, 10 Stone Close",Gauteng,0.0
+900000.0,,Close,Apartment,2.0,2.0,1.0,71.0,,,"777445522 Ss Strelitzia, 4 Stone Close",Gauteng,0.0
+1649000.0,,Lane,Townhouse,2.0,2.0,2.0,104.0,,,"2101 Fish Eagle View, 15c Benacre Lane",Gauteng,0.0
+1649000.0,,Lane,Townhouse,2.0,2.0,2.0,104.0,,,"2101 Fish Eagle View, 15c Benacre Lane",Gauteng,0.0
+1299900.0,,Close,Townhouse,2.0,2.0,2.0,105.0,,,"40125 Ss Malakite, 10 Stone Close",Gauteng,0.0
+1150000.0,,Blvd,Apartment,2.0,2.0,2.0,89.0,,,"Gr1 Greenstone Ridge, 1 Emerald Blvd",Gauteng,0.0
+5950000.0,,Village,House,4.0,1.0,1.0,520.0,,,1 Old Thomas River Village,Gauteng,0.0
+750000.0,,Terrace,Apartment,2.0,1.0,1.0,79.0,,,1 Mayville Terrace,Gauteng,0.0
+1275000.0,,Amanzimtoti,Apartment,2.0,1.0,2.0,74.0,,,"50 Arbour Road, Amanzimtoti",KwaZulu-Natal,0.0
